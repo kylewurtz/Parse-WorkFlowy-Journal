@@ -1,0 +1,2 @@
+date,id,dow,month,dom,type,proj,proj_count,desc
+date,-1.0,DayOfWeek,Month,DayOfMonth,WGHM,ProjectName,-1.0,Description

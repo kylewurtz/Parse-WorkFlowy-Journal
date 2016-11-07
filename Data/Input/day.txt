@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<opml version="2.0">
+  <head>
+    <ownerEmail>kpwurtz@gmail.com</ownerEmail>
+  </head>
+  <body>
+    <outline text="Tuesday 9.6" >
+      <outline text="&lt;b&gt;POMODOROS [15]&lt;/b&gt;" >
+        <outline text="Total" >
+          <outline text="Work: 7" />
+          <outline text="Growth: 4" />
+          <outline text="Health: 2" />
+          <outline text="Misc: 2" /></outline>
+        <outline text="[1] " >
+          <outline text="W: @Mixed Getting set up for the day; Weekly review" /></outline>
+        <outline text="[2] " >
+          <outline text="W: @Mixed Weekly review" /></outline>
+        <outline text="[3] " >
+          <outline text="W: @Mixed Weekly review" /></outline>
+        <outline text="[4] " >
+          <outline text="W: @Recruiting UNL visit presentation prep" /></outline>
+        <outline text="[5] " >
+          <outline text="W: [533] @CAAutoSequential2016 Investigate impact of pumping Mileage: See what weights would look like with current Mileage distributions" /></outline>
+        <outline text="[6] " >
+          <outline text="W: [534] @CAAutoSequential2016 Investigate impact of pumping Mileage: See what weights would look like with current Mileage distributions" /></outline>
+        <outline text="[7]" >
+          <outline text="G: Listening to the Waking Up podcast" /></outline>
+        <outline text="[8] " >
+          <outline text="M: Grocery store" /></outline>
+        <outline text="[9]" >
+          <outline text="G: Listening to the Waking Up podcast" /></outline>
+        <outline text="[10]" >
+          <outline text="M: Grocery store" /></outline>
+        <outline text="[11] " >
+          <outline text="W: [535] @CAAutoSequential2016 Investigate impact of pumping Mileage: See what weights would look like with current Mileage distributions" /></outline>
+        <outline text="[12] " >
+          <outline text="G: Setting up Digital Ocean droplet" /></outline>
+        <outline text="[13] " >
+          <outline text="G: Setting up Digital Ocean droplet" /></outline>
+        <outline text="[14] " >
+          <outline text="H: Volleyball game" /></outline>
+        <outline text="[15]" >
+          <outline text="H: Volleyball game" /></outline>
+      </outline>
+      <outline text="&lt;b&gt;INTERRUPTIONS [5]&lt;/b&gt;" >
+        <outline text="Peer: 4" />
+        <outline text="Manager: 0" />
+        <outline text="Self: 1" />
+        <outline text="Other: 0" /></outline>
+      <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+        <outline _complete="true" text="Make bed" />
+        <outline _complete="true" text="Meditate [54]" />
+        <outline _complete="true" text="Tiny Gains [290]" />
+        <outline _complete="true" text="Make coffee" />
+        <outline _complete="true" text="Journal [1]" >
+          <outline text="&lt;b&gt;## Five Minute Journal #FiveMinuteJournal&lt;/b&gt;" >
+            <outline text="&lt;b&gt;**I am grateful for...**  &lt;/b&gt;" >
+              <outline text="1. Rationality" />
+              <outline text="2. That we made it back safely from our weekend" />
+              <outline text="3. Good sleep" _note=" " /></outline>
+            <outline text="&lt;b&gt;**What would make today great?**  &lt;/b&gt;" >
+              <outline text="1. I stay focused at work" />
+              <outline text="2. I get prepared for our presentation prep meeting" />
+              <outline text="3. I I take breaks to feel rested" _note=" " /></outline>
+            <outline text="&lt;b&gt;**Daily affirmations:**  &lt;/b&gt;" >
+              <outline text="Ego is the enemy" />
+              <outline text="Ego is the enemy" />
+              <outline text="Ego is the enemy" />
+              <outline text="Ego is the enemy" />
+              <outline text="Ego is the enemy" />
+              <outline text="Ego is the enemy" />
+              <outline text="Ego is the enemy" />
+              <outline text="Ego is the enemy" />
+              <outline text="Ego is the enemy" />
+              <outline text="Ego is the enemy" />
+              <outline text="Ego is the enemy" />
+              <outline text="Ego is the enemy" />
+              <outline text="Ego is the enemy" />
+              <outline text="Ego is the enemy" />
+              <outline text="Ego is the enemy" />
+              <outline text="Ego is the enemy" />
+              <outline text="Ego is the enemy" _note=" " /></outline>
+            <outline text="&lt;b&gt;**Three amazing things that happened today:**  &lt;/b&gt;" >
+              <outline text="1. " />
+              <outline text="2. " />
+              <outline text="3. " _note=" " /></outline>
+            <outline text="&lt;b&gt;**How could I have made today better?**  &lt;/b&gt;" >
+              <outline text="" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;## Morning Pages #MorningPages&lt;/b&gt;" >
+            <outline text="Christina and I had a very enjoyable weekend trip to St. Louis and KC. It was my first time to both of those cities and I found them to be very impressive. Christina and I had some pretty good conversations during the trip. I told her about Timshel and why it meant so much to me, and then the very next day we happened upon a coffee shop called Thou Mayest! Awesome." /></outline>
+        </outline>
+      </outline>
+      <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+        <outline text="Meal Log #4HB " >
+          <outline text="Breakfast: A (0/0/25; 220)" >
+            <outline text="Water" />
+            <outline text="Titanium Tea" >
+              <outline text="Pu-Erh Tea" />
+              <outline text="Turmeric Ginger Tea" />
+              <outline text="1 Tablespoon grass-fed unsalted butter (0/0/11; 100)" />
+              <outline text="1 Tablespoon coconut oil (0/0/14; 120)" /></outline>
+          </outline>
+          <outline text="Lunch: B" >
+            <outline text="Chipotle Burrito Bowl" >
+              <outline text="Extra black beans" />
+              <outline text="Chicken" />
+              <outline text="Fajitas" />
+              <outline text="Pico" />
+              <outline text="Verde" />
+              <outline text="Cheese" /></outline>
+            <outline text="Chips and guacamole" />
+            <outline text="Water" /></outline>
+          <outline text="Dinner: B" >
+            <outline text="4 eggs" />
+            <outline text="1/2 cup spinach" />
+            <outline text="Salsa" />
+            <outline text="Chips" />
+            <outline text="Water" /></outline>
+          <outline text="Snack: F" >
+            <outline text="3 beers" /></outline>
+          <outline text="First Feeding: 11:00AM" />
+          <outline text="Last Feeding: 6:45PM" /></outline>
+        <outline text="Weight: 151" />
+        <outline text="Pushups: 69 #tinygains " />
+        <outline text="Standing Pomodoros: 6" />
+        <outline text="Volleyball game" /></outline>
+      <outline text="&lt;b&gt;Events&lt;/b&gt;" >
+        <outline _complete="true" text="[X] 10:00-10:30AM: Meeting -- CA Pricing Team Meeting" _note="855-262-8000 CC: 3128006093" />
+        <outline _complete="true" text="[X] 1:00-2:00PM: Meeting -- E/W Right Environment Meeting" _note="8552628000; CC: 8474026100" />
+        <outline _complete="true" text="[X] 2:30-3:30PM: Meeting -- Nebraska Presentation Prep" _note="855.262.8000,,,8474021064#; WebEx: https://allstate.webex.com/allstate/j.php?MTID=m6a1073a3bdbca93cce624da66592a661" /></outline>
+      <outline text="&lt;b&gt;Tasks&lt;/b&gt;" >
+        <outline _complete="true" text="[X] Recruiting: UNL visit presentation prep" />
+        <outline _complete="true" text="[X] Sequential Analysis: See what weights would look like with current Mileage distributions" />
+        <outline text="----" />
+        <outline text="Backlog: https://workflowy.com/#/ec9f2a633107" />
+        <outline _complete="true" text="[X] Clean out yesterday's WorkFlowy inbox" />
+        <outline _complete="true" text="[X] Move yesterday's tasks or mark them complete" />
+        <outline _complete="true" text="[X] Log totals for pomodoros, interruptions, and health" />
+        <outline _complete="true" text="[X] Add tasks for today from weekly plan" />
+        <outline _complete="true" text="[X] Weekly Review" >
+          <outline _complete="true" text="[X] Total up prior week's pomodoro totals" />
+          <outline _complete="true" text="[X] Check previous week's time" _note="https://www.toggl.com/app/reports/detailed/1194753/period/prevWeek/clients/18046471/billable/both" />
+          <outline _complete="true" text="[X] Clean physical desk" />
+          <outline _complete="true" text="[X] Clean inbox" />
+          <outline _complete="true" text="[X] Add meetings to WorkFlowy" />
+          <outline _complete="true" text="[X] Review inboxes and projects for tasks" />
+          <outline _complete="true" text="[X] Search todo and wip " />
+          <outline _complete="true" text="[X] Plan work for upcoming week" /></outline>
+        <outline _complete="true" text="[X] Send Megan my plan for the week" />
+        <outline text="----" />
+        <outline text="Backlog: https://workflowy.com/#/17625ac4e45d" />
+        <outline _complete="true" text="[X] Go to the grocery store" /></outline>
+      <outline text="&lt;b&gt;Notes&lt;/b&gt;" />
+      <outline text="&lt;b&gt;Inbox&lt;/b&gt;" /></outline>
+  </body>
+</opml>

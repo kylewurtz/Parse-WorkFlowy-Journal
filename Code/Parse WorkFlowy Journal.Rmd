@@ -1,0 +1,272 @@
+---
+title: 'Parse WorkFlowy Journal'
+author: "kyle wurtz"
+date: "`r Sys.Date()`"
+output: 
+  html_notebook:
+    toc: true
+    theme: yeti
+    code_folding: show
+---
+
+## Setup
+### Load Packages
+```{r load packages, warning = FALSE, message = FALSE}
+require(tidyverse)
+require(magrittr)
+require(xml2)
+require(stringr)
+require(lubridate)
+```
+
+### Read Day Data
+```{r read in sample day data}
+# read in data in opml format
+day = read_xml("../Data/Input/day.txt")
+day = xml_children(day)[2] # get rid of head
+day = xml_child(day, 1) # get XML node
+
+# get string for date
+date = xml_attr(day, "text")
+
+# save date2 field
+d = strsplit(strsplit(date, " ")[[1]][2], ".", fixed = TRUE)
+mon = str_pad(d[[1]][1], 2, pad = "0")
+dom = str_pad(d[[1]][2], 2, pad = "0")
+date2 = paste0(2016, mon, dom)
+rm(list = c("d", "mon", "dom"))
+```
+
+### Read Month Data
+```{r read in sample month data}
+# read in month data in opml format
+month = read_xml("../Data/Input/month.txt")
+month = xml_children(month)[2] # get rid of head
+month = xml_child(month, 1) # get XML node
+```
+
+
+### Set Up Days Data Frame
+```{r set up days data frame}
+# get all days in the year
+days_in_year = as.character(seq(as.Date("2016-01-01"), as.Date("2016-12-31"), by = "days"))
+days_in_year = gsub(pattern = "-", replacement = "", x = days_in_year)
+num_days = length(days_in_year)
+
+# set up days data frame
+days = tibble(
+  day = days_in_year,
+  poms_tot = rep(NA, num_days),
+  poms_tot_w = rep(NA, num_days),
+  poms_tot_g = rep(NA, num_days),
+  poms_tot_h = rep(NA, num_days),
+  poms_tot_m = rep(NA, num_days),
+  inters_tot = rep(NA, num_days),
+  inters_tot_p = rep(NA, num_days),
+  inters_tot_m = rep(NA, num_days),
+  inters_tot_s = rep(NA, num_days),
+  inters_tot_o = rep(NA, num_days)
+)
+```
+
+### Set Up Pomodoros Data Frame
+```{r set up pomodoros data frame}
+pomodoros = tibble(
+  date = "date",
+  id = -1,
+  dow = "DayOfWeek",
+  month = "Month",
+  dom = "DayOfMonth",
+  type = "WGHM",
+  proj = "ProjectName",
+  proj_count = -1,
+  desc = "Description"
+)
+```
+
+### Function to Get Pomodoros
+```{r get pomodoros for a day}
+# get total pomodoros from a day
+getTotPom = function(t, n) {
+  t = xml_child(t, n)
+  t %<>% xml_attr("text") %>% str_split(":")
+  t = t[[1]][2] %>% str_trim() %>% as.integer()
+  return(t)
+}
+
+getDaysPomodoros = function(day) {
+  # get pomodoros in day
+  poms = xml_children(day)[1]
+  
+  # pomodoros total
+  poms_tot = xml_child(poms, 1)
+  poms_tot_w = getTotPom(poms_tot, 1) # work
+  poms_tot_g = getTotPom(poms_tot, 2) # growth
+  poms_tot_h = getTotPom(poms_tot, 3) # health
+  poms_tot_m = getTotPom(poms_tot, 4) # misc
+  
+  # pomodoro records
+  pom_records = data_frame(
+    day = rep(date, 100),
+    id = 1:100,
+    type = rep(NA, 100),
+    proj = rep(NA, 100),
+    proj_count = rep(NA, 100),
+    desc = rep(NA, 100)
+  )
+  
+  # loop through each of pomodoros and log it
+  for (r in 2:length(xml_children(poms))) {
+    n = r - 1
+    
+    # get individual record
+    pom_rec = xml_child(poms, r) %>%
+      xml_child() %>%
+      xml_attr("text") %>%
+      str_split(":", 2) %>%
+      .[[1]] %>%
+      str_trim()
+    
+    # get pomodoro type
+    pom_rec_type = pom_rec[1]
+    
+    # get pomodoro description
+    pom_rec_desc = pom_rec[2]
+    
+    # get project type (if applicable)
+    proj_check = pom_rec_desc %>%
+      str_split("@") %>%
+      .[[1]] %>%
+      length()
+    if (proj_check == 2) {
+      pom_rec_proj = pom_rec_desc %>%
+        str_split("@") %>%
+        .[[1]] %>%
+        .[2] %>%
+        str_split(" ") %>%
+        .[[1]] %>%
+        .[1]
+      
+      if (grepl("\\[", pom_rec_desc)) {
+        pom_rec_proj_count = pom_rec_desc %>%
+          str_split("\\[", 2) %>%
+          .[[1]] %>%
+          .[2] %>%
+          str_split("\\]", 2) %>%
+          .[[1]] %>%
+          .[1] %>%
+          as.integer()
+        
+        pom_rec_desc %<>%
+          str_split("]") %>%
+          .[[1]] %>%
+          .[2] %>%
+          str_trim()
+      } else {
+        pom_rec_proj_count = NA
+      }
+      
+      proj_bool = pom_rec_desc %>%
+        str_split(" ") %>%
+        .[[1]] %>%
+        grepl("@", .)
+      pom_rec_desc %<>%
+        str_split(" ") %>%
+        .[[1]] %>%
+        subset(!proj_bool) %>%
+        paste(collapse = " ")
+      
+    } else {
+      pom_rec_proj = NA
+      pom_rec_proj_count = NA
+    }
+    
+    # add results to pom_records
+    pom_records$type[n] = pom_rec_type
+    pom_records$proj[n] = pom_rec_proj
+    pom_records$proj_count[n] = pom_rec_proj_count
+    pom_records$desc[n] = pom_rec_desc
+  }
+
+  # filter out extra rows
+  pom_records %<>% filter(!is.na(type))
+  
+  # get date fields
+  pom_records %<>% 
+    separate(day, c("dow", "month", "dom")) %>% 
+    mutate(
+      month = str_pad(month, 2, pad = "0"),
+      dom = str_pad(dom, 2, pad = "0"),
+      date = paste0(2016, month, dom)
+    ) %>% 
+    select(date, id, dow:dom, type:desc)
+  
+  # add to pomodoros data frame
+  pomodoros %<>% rbind(pom_records)
+  
+  # add totals to days data frame
+  days$poms_tot[days$day == date2] = nrow(pom_records)
+  days$poms_tot_w[days$day == date2] = pom_records %>% filter(type == "W") %>% nrow()
+  days$poms_tot_g[days$day == date2] = pom_records %>% filter(type == "G") %>% nrow()
+  days$poms_tot_h[days$day == date2] = pom_records %>% filter(type == "H") %>% nrow()
+  days$poms_tot_m[days$day == date2] = pom_records %>% filter(type == "M") %>% nrow()
+  
+  # save result to global environment
+  assign("days", days, envir = .GlobalEnv)
+}
+```
+
+### Function to Get Interruptions
+```{r get interruptions in a day}
+# get total interruptions for a day
+getTotInter = function(t, n) {
+  t = xml_child(t, n)
+  t %<>% xml_attr("text") %>% str_split(":")
+  t = t[[1]][2] %>% str_trim() %>% as.integer()
+  return(t)
+}
+
+getDaysInterruptions = function(day) {
+  # get interruptions in a day
+  inters = xml_children(day)[2]
+  
+  ## interruptions total
+  inters_tot_p = getTotInter(inters, 1) # peer
+  inters_tot_m = getTotInter(inters, 2) # manager
+  inters_tot_s = getTotInter(inters, 3) # self
+  inters_tot_o = getTotInter(inters, 4) # other
+  inters_tot = sum(inters_tot_p, inters_tot_m, inters_tot_s, inters_tot_o)
+  
+  # add totals to days data frame
+  days$inters_tot[days$day == date2] = inters_tot
+  days$inters_tot_p[days$day == date2] = inters_tot_p
+  days$inters_tot_m[days$day == date2] = inters_tot_m
+  days$inters_tot_s[days$day == date2] = inters_tot_s
+  days$inters_tot_o[days$day == date2] = inters_tot_o
+  
+  # save result to global environment
+  assign("days", days, envir = .GlobalEnv)
+}
+```
+
+
+## Get Results for a Single Day
+```{r test results for a single day}
+getDaysPomodoros(day)
+getDaysInterruptions(day)
+```
+
+## Get Results for a Single Month
+```{r test results for a single month}
+for (day in xml_children(month)) {
+  print(day) # wip
+}
+```
+
+
+## Save Output
+```{r save csv output files}
+write_csv(days, "../Data/Output/days.csv")
+write_csv(pomodoros, "../Data/Output/pomodoros.csv")
+```
+
