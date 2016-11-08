@@ -12,15 +12,15 @@
     "path" : null,
     "project_path" : null,
     "properties" : {
-        "cacheKey" : "47675943",
+        "cacheKey" : "6F6F20C7",
         "caption" : "pomodoros",
-        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=pomodoros&cache_key=47675943",
-        "displayedObservations" : 1,
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=pomodoros&cache_key=6F6F20C7",
+        "displayedObservations" : "2602",
         "environment" : "",
         "object" : "pomodoros",
-        "preview" : 0,
-        "totalObservations" : 1,
-        "variables" : 6
+        "preview" : "0",
+        "totalObservations" : "2602",
+        "variables" : "6"
     },
     "relative_order" : 6,
     "source_on_save" : false,

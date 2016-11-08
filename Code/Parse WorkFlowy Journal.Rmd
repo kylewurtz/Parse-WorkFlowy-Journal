@@ -229,8 +229,9 @@ getDaysPomodoros = function(day) {
     days$poms_tot_h[days$day == date] = pom_records %>% filter(type == "H") %>% nrow()
     days$poms_tot_m[days$day == date] = pom_records %>% filter(type == "M") %>% nrow()
     
-    # save result to global environment
+    # save results to global environment
     assign("days", days, envir = .GlobalEnv)
+    assign("pomodoros", pomodoros, envir = .GlobalEnv)
   }
 
 }
@@ -293,17 +294,22 @@ getMonthResults = function(month) {
     getDaysPomodoros(day)
     getDaysInterruptions(day)
   }
-  
-  # save result to global environment
-  #assign("days", days, envir = .GlobalEnv)
 }
-
-getMonthResults(month)
 ```
 
 ## Get Results for a Single Year
 ```{r test results for a single year}
-for (month in )
+for (month in xml_children(year)) {
+  getMonthResults(month)
+}
+```
+
+## Graph Pomodoros Over Time
+I'll update this later and make it pretty...just wanted to do a quick graph before calling it quits for the night!.
+```{r, quick graph of pomodoros over time}
+days %>% 
+  ggplot(., aes(x = day, y = poms_tot, group = 1)) +
+  geom_point() + geom_line()
 ```
 
 
