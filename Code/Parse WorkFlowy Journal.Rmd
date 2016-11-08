@@ -20,7 +20,7 @@ require(lubridate)
 ```
 
 ### Read Day Data
-```{r read in sample day data}
+```{r read in sample day data, eval = FALSE}
 # read in data in opml format
 day = read_xml("../Data/Input/day.txt")
 day = xml_children(day)[2] # get rid of head
@@ -74,15 +74,29 @@ days = tibble(
 pomodoros = tibble(
   date = "date",
   id = -1,
-  dow = "DayOfWeek",
-  month = "Month",
-  dom = "DayOfMonth",
   type = "WGHM",
   proj = "ProjectName",
   proj_count = -1,
   desc = "Description"
 )
 ```
+
+### Function to Get Date from Day Node
+```{r get date from day node}
+getDate = function(day) {
+  # get string for date
+  date = xml_attr(day, "text")
+  
+  # save date2 field
+  d = strsplit(strsplit(date, " ")[[1]][2], ".", fixed = TRUE)
+  mon = str_pad(d[[1]][1], 2, pad = "0")
+  dom = str_pad(d[[1]][2], 2, pad = "0")
+  date2 = paste0(2016, mon, dom)
+  
+  return(date2)
+}
+```
+
 
 ### Function to Get Pomodoros
 ```{r get pomodoros for a day}
@@ -95,6 +109,9 @@ getTotPom = function(t, n) {
 }
 
 getDaysPomodoros = function(day) {
+  # get pretty date
+  date = getDate(day)
+  
   # get pomodoros in day
   poms = xml_children(day)[1]
   
@@ -110,7 +127,7 @@ getDaysPomodoros = function(day) {
     # only proceed if they're not all NAs
     # pomodoro records
     pom_records = data_frame(
-      day = rep(date, 100),
+      date = rep(date, 100),
       id = 1:100,
       type = rep(NA, 100),
       proj = rep(NA, 100),
@@ -194,26 +211,15 @@ getDaysPomodoros = function(day) {
     # filter out extra rows
     pom_records %<>% filter(!is.na(type))
     
-    # get date fields
-    pom_records %<>% 
-      mutate(day = trimws(day)) %>% 
-      separate(day, c("dow", "month", "dom")) %>% 
-      mutate(
-        month = str_pad(month, 2, pad = "0"),
-        dom = str_pad(dom, 2, pad = "0"),
-        date = paste0(2016, month, dom)
-      ) %>% 
-      select(date, id, dow:dom, type:desc)
-    
     # add to pomodoros data frame
     pomodoros %<>% rbind(pom_records)
     
     # add totals to days data frame
-    days$poms_tot[days$day == date2] = nrow(pom_records)
-    days$poms_tot_w[days$day == date2] = pom_records %>% filter(type == "W") %>% nrow()
-    days$poms_tot_g[days$day == date2] = pom_records %>% filter(type == "G") %>% nrow()
-    days$poms_tot_h[days$day == date2] = pom_records %>% filter(type == "H") %>% nrow()
-    days$poms_tot_m[days$day == date2] = pom_records %>% filter(type == "M") %>% nrow()
+    days$poms_tot[days$day == date] = nrow(pom_records)
+    days$poms_tot_w[days$day == date] = pom_records %>% filter(type == "W") %>% nrow()
+    days$poms_tot_g[days$day == date] = pom_records %>% filter(type == "G") %>% nrow()
+    days$poms_tot_h[days$day == date] = pom_records %>% filter(type == "H") %>% nrow()
+    days$poms_tot_m[days$day == date] = pom_records %>% filter(type == "M") %>% nrow()
     
     # save result to global environment
     assign("days", days, envir = .GlobalEnv)
@@ -233,6 +239,9 @@ getTotInter = function(t, n) {
 }
 
 getDaysInterruptions = function(day) {
+  # get pretty date
+  date = getDate(day)
+  
   # get interruptions in a day
   inters = xml_children(day)[2]
   
@@ -248,11 +257,11 @@ getDaysInterruptions = function(day) {
     # only proceed if they're not all NA
     
     # add totals to days data frame
-    days$inters_tot[days$day == date2] = inters_tot
-    days$inters_tot_p[days$day == date2] = inters_tot_p
-    days$inters_tot_m[days$day == date2] = inters_tot_m
-    days$inters_tot_s[days$day == date2] = inters_tot_s
-    days$inters_tot_o[days$day == date2] = inters_tot_o
+    days$inters_tot[days$day == date] = inters_tot
+    days$inters_tot_p[days$day == date] = inters_tot_p
+    days$inters_tot_m[days$day == date] = inters_tot_m
+    days$inters_tot_s[days$day == date] = inters_tot_s
+    days$inters_tot_o[days$day == date] = inters_tot_o
     
     # save result to global environment
     assign("days", days, envir = .GlobalEnv)
@@ -264,29 +273,27 @@ getDaysInterruptions = function(day) {
 
 ## Get Results for a Single Day
 ```{r test results for a single day, eval = FALSE}
-getDaysPomodoros(day)
-getDaysInterruptions(day)
+# getDaysPomodoros(day)
+# getDaysInterruptions(day)
 ```
+
 
 ## Get Results for a Single Month
 ```{r test results for a single month}
-# xml_children(month) %>% xml_attr(attr = "text")
-for (day in xml_children(month)) {
-  # get string for date
-  date = xml_attr(day, "text")
+getMonthResults = function(month) {
+  for (day in xml_children(month)) {
+    getDaysPomodoros(day)
+    getDaysInterruptions(day)
+  }
   
-  # save date2 field
-  d = strsplit(strsplit(date, " ")[[1]][2], ".", fixed = TRUE)
-  mon = str_pad(d[[1]][1], 2, pad = "0")
-  dom = str_pad(d[[1]][2], 2, pad = "0")
-  date2 = paste0(2016, mon, dom)
-  rm(list = c("d", "mon", "dom"))
-  
-  getDaysPomodoros(day)
-  getDaysInterruptions(day)
+  # save result to global environment
+  #assign("days", days, envir = .GlobalEnv)
 }
+
+getMonthResults(month)
 ```
 
+## Get Results for a Single Year
 
 ## Save Output
 ```{r save csv output files}
