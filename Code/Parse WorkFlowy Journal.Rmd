@@ -305,7 +305,7 @@ for (month in xml_children(year)) {
 ```
 
 ## Graph Pomodoros Over Time
-I'll update this later and make it pretty...just wanted to do a quick graph before calling it quits for the night!.
+I'll update this later and make it pretty...just wanted to do a quick graph before calling it quits for the night!
 ```{r, quick graph of pomodoros over time}
 days %>% 
   ggplot(., aes(x = day, y = poms_tot, group = 1)) +
