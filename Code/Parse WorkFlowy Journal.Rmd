@@ -105,114 +105,120 @@ getDaysPomodoros = function(day) {
   poms_tot_h = getTotPom(poms_tot, 3) # health
   poms_tot_m = getTotPom(poms_tot, 4) # misc
   
-  # pomodoro records
-  pom_records = data_frame(
-    day = rep(date, 100),
-    id = 1:100,
-    type = rep(NA, 100),
-    proj = rep(NA, 100),
-    proj_count = rep(NA, 100),
-    desc = rep(NA, 100)
-  )
-  
-  # loop through each of pomodoros and log it
-  for (r in 2:length(xml_children(poms))) {
-    n = r - 1
+  # if no pomodoros, can skip the rest of this
+  if(!(is.na(poms_tot_w) & is.na(poms_tot_g) & is.na(poms_tot_h) & is.na(poms_tot_m))) {
+    # only proceed if they're not all NAs
+    # pomodoro records
+    pom_records = data_frame(
+      day = rep(date, 100),
+      id = 1:100,
+      type = rep(NA, 100),
+      proj = rep(NA, 100),
+      proj_count = rep(NA, 100),
+      desc = rep(NA, 100)
+    )
     
-    # get individual record
-    pom_rec = xml_child(poms, r) %>%
-      xml_child() %>%
-      xml_attr("text") %>%
-      str_split(":", 2) %>%
-      .[[1]] %>%
-      str_trim()
-    
-    # get pomodoro type
-    pom_rec_type = pom_rec[1]
-    
-    # get pomodoro description
-    pom_rec_desc = pom_rec[2]
-    
-    # get project type (if applicable)
-    proj_check = pom_rec_desc %>%
-      str_split("@") %>%
-      .[[1]] %>%
-      length()
-    if (proj_check == 2) {
-      pom_rec_proj = pom_rec_desc %>%
+    # loop through each of pomodoros and log it
+    for (r in 2:length(xml_children(poms))) {
+      n = r - 1
+      
+      # get individual record
+      pom_rec = xml_child(poms, r) %>%
+        xml_child() %>%
+        xml_attr("text") %>%
+        str_split(":", 2) %>%
+        .[[1]] %>%
+        str_trim()
+      
+      # get pomodoro type
+      pom_rec_type = pom_rec[1]
+      
+      # get pomodoro description
+      pom_rec_desc = pom_rec[2]
+      
+      # get project type (if applicable)
+      proj_check = pom_rec_desc %>%
         str_split("@") %>%
         .[[1]] %>%
-        .[2] %>%
-        str_split(" ") %>%
-        .[[1]] %>%
-        .[1]
-      
-      if (grepl("\\[", pom_rec_desc)) {
-        pom_rec_proj_count = pom_rec_desc %>%
-          str_split("\\[", 2) %>%
+        length()
+      if (proj_check == 2) {
+        pom_rec_proj = pom_rec_desc %>%
+          str_split("@") %>%
           .[[1]] %>%
           .[2] %>%
-          str_split("\\]", 2) %>%
+          str_split(" ") %>%
           .[[1]] %>%
-          .[1] %>%
-          as.integer()
+          .[1]
         
-        pom_rec_desc %<>%
-          str_split("]") %>%
+        if (grepl("\\[", pom_rec_desc)) {
+          pom_rec_proj_count = pom_rec_desc %>%
+            str_split("\\[", 2) %>%
+            .[[1]] %>%
+            .[2] %>%
+            str_split("\\]", 2) %>%
+            .[[1]] %>%
+            .[1] %>%
+            as.integer()
+          
+          pom_rec_desc %<>%
+            str_split("]") %>%
+            .[[1]] %>%
+            .[2] %>%
+            str_trim()
+        } else {
+          pom_rec_proj_count = NA
+        }
+        
+        proj_bool = pom_rec_desc %>%
+          str_split(" ") %>%
           .[[1]] %>%
-          .[2] %>%
-          str_trim()
+          grepl("@", .)
+        pom_rec_desc %<>%
+          str_split(" ") %>%
+          .[[1]] %>%
+          subset(!proj_bool) %>%
+          paste(collapse = " ")
+        
       } else {
+        pom_rec_proj = NA
         pom_rec_proj_count = NA
       }
       
-      proj_bool = pom_rec_desc %>%
-        str_split(" ") %>%
-        .[[1]] %>%
-        grepl("@", .)
-      pom_rec_desc %<>%
-        str_split(" ") %>%
-        .[[1]] %>%
-        subset(!proj_bool) %>%
-        paste(collapse = " ")
-      
-    } else {
-      pom_rec_proj = NA
-      pom_rec_proj_count = NA
+      # add results to pom_records
+      pom_records$type[n] = pom_rec_type
+      pom_records$proj[n] = pom_rec_proj
+      pom_records$proj_count[n] = pom_rec_proj_count
+      pom_records$desc[n] = pom_rec_desc
     }
+  
+    # filter out extra rows
+    pom_records %<>% filter(!is.na(type))
     
-    # add results to pom_records
-    pom_records$type[n] = pom_rec_type
-    pom_records$proj[n] = pom_rec_proj
-    pom_records$proj_count[n] = pom_rec_proj_count
-    pom_records$desc[n] = pom_rec_desc
+    # get date fields
+    pom_records %<>% 
+      mutate(day = trimws(day)) %>% 
+      separate(day, c("dow", "month", "dom")) %>% 
+      mutate(
+        month = str_pad(month, 2, pad = "0"),
+        dom = str_pad(dom, 2, pad = "0"),
+        date = paste0(2016, month, dom)
+      ) %>% 
+      select(date, id, dow:dom, type:desc)
+    
+    # add to pomodoros data frame
+    pomodoros %<>% rbind(pom_records)
+    
+    # add totals to days data frame
+    days$poms_tot[days$day == date2] = nrow(pom_records)
+    days$poms_tot_w[days$day == date2] = pom_records %>% filter(type == "W") %>% nrow()
+    days$poms_tot_g[days$day == date2] = pom_records %>% filter(type == "G") %>% nrow()
+    days$poms_tot_h[days$day == date2] = pom_records %>% filter(type == "H") %>% nrow()
+    days$poms_tot_m[days$day == date2] = pom_records %>% filter(type == "M") %>% nrow()
+    
+    # save result to global environment
+    assign("days", days, envir = .GlobalEnv)
   }
 
-  # filter out extra rows
-  pom_records %<>% filter(!is.na(type))
-  
-  # get date fields
-  pom_records %<>% 
-    separate(day, c("dow", "month", "dom")) %>% 
-    mutate(
-      month = str_pad(month, 2, pad = "0"),
-      dom = str_pad(dom, 2, pad = "0"),
-      date = paste0(2016, month, dom)
-    ) %>% 
-    select(date, id, dow:dom, type:desc)
-  
-  # add to pomodoros data frame
-  pomodoros %<>% rbind(pom_records)
-  
-  # add totals to days data frame
-  days$poms_tot[days$day == date2] = nrow(pom_records)
-  days$poms_tot_w[days$day == date2] = pom_records %>% filter(type == "W") %>% nrow()
-  days$poms_tot_g[days$day == date2] = pom_records %>% filter(type == "G") %>% nrow()
-  days$poms_tot_h[days$day == date2] = pom_records %>% filter(type == "H") %>% nrow()
-  days$poms_tot_m[days$day == date2] = pom_records %>% filter(type == "M") %>% nrow()
-  
-  # save result to global environment
-  assign("days", days, envir = .GlobalEnv)
 }
 ```
 
@@ -235,31 +241,49 @@ getDaysInterruptions = function(day) {
   inters_tot_m = getTotInter(inters, 2) # manager
   inters_tot_s = getTotInter(inters, 3) # self
   inters_tot_o = getTotInter(inters, 4) # other
-  inters_tot = sum(inters_tot_p, inters_tot_m, inters_tot_s, inters_tot_o)
+  inters_tot = sum(inters_tot_p, inters_tot_m, inters_tot_s, inters_tot_o, na.rm = T)
   
-  # add totals to days data frame
-  days$inters_tot[days$day == date2] = inters_tot
-  days$inters_tot_p[days$day == date2] = inters_tot_p
-  days$inters_tot_m[days$day == date2] = inters_tot_m
-  days$inters_tot_s[days$day == date2] = inters_tot_s
-  days$inters_tot_o[days$day == date2] = inters_tot_o
-  
-  # save result to global environment
-  assign("days", days, envir = .GlobalEnv)
+  # if no interruptions, can skip the rest of this
+  if (!(is.na(inters_tot_p) & is.na(inters_tot_m) & is.na(inters_tot_s) & is.na(inters_tot_o))) {
+    # only proceed if they're not all NA
+    
+    # add totals to days data frame
+    days$inters_tot[days$day == date2] = inters_tot
+    days$inters_tot_p[days$day == date2] = inters_tot_p
+    days$inters_tot_m[days$day == date2] = inters_tot_m
+    days$inters_tot_s[days$day == date2] = inters_tot_s
+    days$inters_tot_o[days$day == date2] = inters_tot_o
+    
+    # save result to global environment
+    assign("days", days, envir = .GlobalEnv)
+  }
+
 }
 ```
 
 
 ## Get Results for a Single Day
-```{r test results for a single day}
+```{r test results for a single day, eval = FALSE}
 getDaysPomodoros(day)
 getDaysInterruptions(day)
 ```
 
 ## Get Results for a Single Month
 ```{r test results for a single month}
+# xml_children(month) %>% xml_attr(attr = "text")
 for (day in xml_children(month)) {
-  print(day) # wip
+  # get string for date
+  date = xml_attr(day, "text")
+  
+  # save date2 field
+  d = strsplit(strsplit(date, " ")[[1]][2], ".", fixed = TRUE)
+  mon = str_pad(d[[1]][1], 2, pad = "0")
+  dom = str_pad(d[[1]][2], 2, pad = "0")
+  date2 = paste0(2016, mon, dom)
+  rm(list = c("d", "mon", "dom"))
+  
+  getDaysPomodoros(day)
+  getDaysInterruptions(day)
 }
 ```
 
