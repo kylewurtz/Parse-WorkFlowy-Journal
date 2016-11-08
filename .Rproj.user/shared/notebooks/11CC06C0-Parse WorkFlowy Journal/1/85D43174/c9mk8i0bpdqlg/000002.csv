@@ -1,0 +1,8 @@
+"0","pomodoros = tibble("
+"0","  date = ""date"","
+"0","  id = -1,"
+"0","  type = ""WGHM"","
+"0","  proj = ""ProjectName"","
+"0","  proj_count = -1,"
+"0","  desc = ""Description"""
+"0",")"

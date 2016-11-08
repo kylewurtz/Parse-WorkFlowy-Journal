@@ -38,11 +38,19 @@ rm(list = c("d", "mon", "dom"))
 ```
 
 ### Read Month Data
-```{r read in sample month data}
+```{r read in sample month data, eval = FALSE}
 # read in month data in opml format
 month = read_xml("../Data/Input/month.txt")
 month = xml_children(month)[2] # get rid of head
 month = xml_child(month, 1) # get XML node
+```
+
+### Read Year Data
+```{r read in sample year data}
+# read in year data in opml format
+year = read_xml("../Data/Input/year.txt")
+year = xml_children(year)[2] # get rid of head
+year = xml_child(year, 1) # get XML node
 ```
 
 
@@ -294,6 +302,10 @@ getMonthResults(month)
 ```
 
 ## Get Results for a Single Year
+```{r test results for a single year}
+for (month in )
+```
+
 
 ## Save Output
 ```{r save csv output files}
