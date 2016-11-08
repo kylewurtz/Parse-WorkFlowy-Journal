@@ -1,0 +1,4 @@
+"0","# read in month data in opml format"
+"0","month = read_xml(""../Data/Input/month.txt"")"
+"0","month = xml_children(month)[2] # get rid of head"
+"0","month = xml_child(month, 1) # get XML node"
