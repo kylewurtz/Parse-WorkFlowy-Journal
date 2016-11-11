@@ -64,6 +64,7 @@ num_days = length(days_in_year)
 # set up days data frame
 days = tibble(
   day = days_in_year,
+  day_of_week = rep(NA, num_days),
   poms_tot = rep(NA, num_days),
   poms_tot_w = rep(NA, num_days),
   poms_tot_g = rep(NA, num_days),
@@ -81,6 +82,7 @@ days = tibble(
 ```{r set up pomodoros data frame}
 pomodoros = tibble(
   date = "date",
+  day_of_week = "MTWTFSS",
   id = -1,
   type = "WGHM",
   proj = "ProjectName",
@@ -120,6 +122,9 @@ getDaysPomodoros = function(day) {
   # get pretty date
   date = getDate(day)
   
+  # get day of week
+  day_of_week = strsplit(xml_attr(day, "text"), " ")[[1]][1]
+  
   # get pomodoros in day
   poms = xml_children(day)[1]
   
@@ -136,6 +141,7 @@ getDaysPomodoros = function(day) {
     # pomodoro records
     pom_records = data_frame(
       date = rep(date, 100),
+      day_of_week = rep(day_of_week, 100),
       id = 1:100,
       type = rep(NA, 100),
       proj = rep(NA, 100),
@@ -215,7 +221,7 @@ getDaysPomodoros = function(day) {
       pom_records$proj_count[n] = pom_rec_proj_count
       pom_records$desc[n] = pom_rec_desc
     }
-  
+    
     # filter out extra rows
     pom_records %<>% filter(!is.na(type))
     
@@ -228,12 +234,15 @@ getDaysPomodoros = function(day) {
     days$poms_tot_g[days$day == date] = pom_records %>% filter(type == "G") %>% nrow()
     days$poms_tot_h[days$day == date] = pom_records %>% filter(type == "H") %>% nrow()
     days$poms_tot_m[days$day == date] = pom_records %>% filter(type == "M") %>% nrow()
-    
-    # save results to global environment
-    assign("days", days, envir = .GlobalEnv)
-    assign("pomodoros", pomodoros, envir = .GlobalEnv)
   }
 
+  # add day of week
+  days$day_of_week[days$day == date] = day_of_week
+  
+  # save results to global environment
+  assign("days", days, envir = .GlobalEnv)
+  assign("pomodoros", pomodoros, envir = .GlobalEnv)
+  
 }
 ```
 
@@ -302,14 +311,6 @@ getMonthResults = function(month) {
 for (month in xml_children(year)) {
   getMonthResults(month)
 }
-```
-
-## Graph Pomodoros Over Time
-I'll update this later and make it pretty...just wanted to do a quick graph before calling it quits for the night!
-```{r, quick graph of pomodoros over time}
-days %>% 
-  ggplot(., aes(x = day, y = poms_tot, group = 1)) +
-  geom_point() + geom_line()
 ```
 
 
