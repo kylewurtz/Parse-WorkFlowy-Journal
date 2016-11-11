@@ -5,6 +5,7 @@
 "0","# set up days data frame"
 "0","days = tibble("
 "0","  day = days_in_year,"
+"0","  day_of_week = rep(NA, num_days),"
 "0","  poms_tot = rep(NA, num_days),"
 "0","  poms_tot_w = rep(NA, num_days),"
 "0","  poms_tot_g = rep(NA, num_days),"

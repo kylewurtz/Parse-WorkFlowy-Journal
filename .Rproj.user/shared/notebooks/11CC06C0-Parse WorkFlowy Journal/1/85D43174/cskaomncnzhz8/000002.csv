@@ -1,5 +1,6 @@
 "0","pomodoros = tibble("
 "0","  date = ""date"","
+"0","  day_of_week = ""MTWTFSS"","
 "0","  id = -1,"
 "0","  type = ""WGHM"","
 "0","  proj = ""ProjectName"","
