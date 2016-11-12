@@ -1,0 +1,4 @@
+"0","# read in year data in opml format"
+"0","year_2016 = read_xml(""Data/Input/year_2016_1110.txt"")"
+"0","year_2016 = xml_children(year_2016)[2] # get rid of head"
+"0","year_2016 = xml_child(year_2016, 1) # get XML node"

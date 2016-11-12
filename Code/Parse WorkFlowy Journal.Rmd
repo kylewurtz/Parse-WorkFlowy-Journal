@@ -19,10 +19,17 @@ require(stringr)
 require(lubridate)
 ```
 
+### Set Up Root Folder
+```{r setup, include=FALSE}
+require(knitr)
+require(rprojroot)
+opts_knit$set(root.dir = rprojroot::find_root("WorkFlowy Journal.Rproj"))
+```
+
 ### Read Day Data
 ```{r read in sample day data, eval = FALSE}
 # read in data in opml format
-day = read_xml("../Data/Input/day.txt")
+day = read_xml("Data/Input/day.txt")
 day = xml_children(day)[2] # get rid of head
 day = xml_child(day, 1) # get XML node
 
@@ -40,47 +47,83 @@ rm(list = c("d", "mon", "dom"))
 ### Read Month Data
 ```{r read in sample month data, eval = FALSE}
 # read in month data in opml format
-month = read_xml("../Data/Input/month.txt")
+month = read_xml("Data/Input/month.txt")
 month = xml_children(month)[2] # get rid of head
 month = xml_child(month, 1) # get XML node
 ```
 
 ### Read Year Data
-```{r read in sample year data}
+```{r read in sample year data, eval = FALSE}
 # read in year data in opml format
-year = read_xml("../Data/Input/year.txt")
+year = read_xml("Data/Input/year.txt")
 year = xml_children(year)[2] # get rid of head
 year = xml_child(year, 1) # get XML node
 ```
 
+### Read 2015 Data
+```{r read in 2015 data}
+# read in year data in opml format
+year_2015 = read_xml("Data/Input/year_2015.txt")
+year_2015 = xml_children(year_2015)[2] # get rid of head
+year_2015 = xml_child(year_2015, 1) # get XML node
+```
 
-### Set Up Days Data Frame
+### Read 2016 Data
+```{r read in 2016 data}
+# read in year data in opml format
+year_2016 = read_xml("Data/Input/year_2016_1110.txt")
+year_2016 = xml_children(year_2016)[2] # get rid of head
+year_2016 = xml_child(year_2016, 1) # get XML node
+```
+
+### Set Up Days Data Frames
 ```{r set up days data frame}
-# get all days in the year
-days_in_year = as.character(seq(as.Date("2016-01-01"), as.Date("2016-12-31"), by = "days"))
-days_in_year = gsub(pattern = "-", replacement = "", x = days_in_year)
-num_days = length(days_in_year)
+# get all days in the year 2015 (first entry is 2015.11.17)
+days_in_year_15 = as.character(seq(as.Date("2015-11-17"), as.Date("2015-12-31"), by = "days"))
+days_in_year_15 = gsub(pattern = "-", replacement = "", x = days_in_year_15)
+num_days_15 = length(days_in_year_15)
 
 # set up days data frame
-days = tibble(
-  day = days_in_year,
-  day_of_week = rep(NA, num_days),
-  poms_tot = rep(NA, num_days),
-  poms_tot_w = rep(NA, num_days),
-  poms_tot_g = rep(NA, num_days),
-  poms_tot_h = rep(NA, num_days),
-  poms_tot_m = rep(NA, num_days),
-  inters_tot = rep(NA, num_days),
-  inters_tot_p = rep(NA, num_days),
-  inters_tot_m = rep(NA, num_days),
-  inters_tot_s = rep(NA, num_days),
-  inters_tot_o = rep(NA, num_days)
+days_15 = tibble(
+  day = days_in_year_15,
+  day_of_week = rep(NA, num_days_15),
+  poms_tot = rep(NA, num_days_15),
+  poms_tot_w = rep(NA, num_days_15),
+  poms_tot_g = rep(NA, num_days_15),
+  poms_tot_h = rep(NA, num_days_15),
+  poms_tot_m = rep(NA, num_days_15),
+  inters_tot = rep(NA, num_days_15),
+  inters_tot_p = rep(NA, num_days_15),
+  inters_tot_m = rep(NA, num_days_15),
+  inters_tot_s = rep(NA, num_days_15),
+  inters_tot_o = rep(NA, num_days_15)
+)
+
+# get all days in the year 2016
+days_in_year_16 = as.character(seq(as.Date("2016-01-01"), as.Date("2016-12-31"), by = "days"))
+days_in_year_16 = gsub(pattern = "-", replacement = "", x = days_in_year_16)
+num_days_16 = length(days_in_year_16)
+
+# set up days data frame
+days_16 = tibble(
+  day = days_in_year_16,
+  day_of_week = rep(NA, num_days_16),
+  poms_tot = rep(NA, num_days_16),
+  poms_tot_w = rep(NA, num_days_16),
+  poms_tot_g = rep(NA, num_days_16),
+  poms_tot_h = rep(NA, num_days_16),
+  poms_tot_m = rep(NA, num_days_16),
+  inters_tot = rep(NA, num_days_16),
+  inters_tot_p = rep(NA, num_days_16),
+  inters_tot_m = rep(NA, num_days_16),
+  inters_tot_s = rep(NA, num_days_16),
+  inters_tot_o = rep(NA, num_days_16)
 )
 ```
 
 ### Set Up Pomodoros Data Frame
 ```{r set up pomodoros data frame}
-pomodoros = tibble(
+pomodoros_15 = tibble(
   date = "date",
   day_of_week = "MTWTFSS",
   id = -1,
@@ -89,11 +132,20 @@ pomodoros = tibble(
   proj_count = -1,
   desc = "Description"
 )
+pomodoros_16 = tibble(
+  date = "date",
+  day_of_week = "MTWTFSS",
+  id = -1,
+  type = "WGHM",
+  proj = "ProjectName",
+  proj_count = -1,
+  desc = "Description"
+) 
 ```
 
 ### Function to Get Date from Day Node
 ```{r get date from day node}
-getDate = function(day) {
+getDate = function(day, year) {
   # get string for date
   date = xml_attr(day, "text")
   
@@ -101,7 +153,7 @@ getDate = function(day) {
   d = strsplit(strsplit(date, " ")[[1]][2], ".", fixed = TRUE)
   mon = str_pad(d[[1]][1], 2, pad = "0")
   dom = str_pad(d[[1]][2], 2, pad = "0")
-  date2 = paste0(2016, mon, dom)
+  date2 = paste0(year, mon, dom)
   
   return(date2)
 }
@@ -118,13 +170,19 @@ getTotPom = function(t, n) {
   return(t)
 }
 
-getDaysPomodoros = function(day) {
+getDaysPomodoros = function(day, year) {
+  # get temporary days data frame
+  days = get(paste0("days_", substr(year, 3, 4)))
+  
+  # get temporary pomodoros data frame
+  pomodoros = get(paste0("pomodoros_", substr(year, 3, 4)))
+  
   # get pretty date
-  date = getDate(day)
+  date = getDate(day, year)
   
   # get day of week
   day_of_week = strsplit(xml_attr(day, "text"), " ")[[1]][1]
-  
+
   # get pomodoros in day
   poms = xml_children(day)[1]
   
@@ -240,8 +298,8 @@ getDaysPomodoros = function(day) {
   days$day_of_week[days$day == date] = day_of_week
   
   # save results to global environment
-  assign("days", days, envir = .GlobalEnv)
-  assign("pomodoros", pomodoros, envir = .GlobalEnv)
+  assign(paste0("days_", substr(year, 3, 4)), days, envir = .GlobalEnv)
+  assign(paste0("pomodoros_", substr(year, 3, 4)), pomodoros, envir = .GlobalEnv)
   
 }
 ```
@@ -256,9 +314,12 @@ getTotInter = function(t, n) {
   return(t)
 }
 
-getDaysInterruptions = function(day) {
+getDaysInterruptions = function(day, year) {
+  # get temporary days data frame
+  days = get(paste0("days_", substr(year, 3, 4)))
+  
   # get pretty date
-  date = getDate(day)
+  date = getDate(day, year)
   
   # get interruptions in a day
   inters = xml_children(day)[2]
@@ -282,41 +343,57 @@ getDaysInterruptions = function(day) {
     days$inters_tot_o[days$day == date] = inters_tot_o
     
     # save result to global environment
-    assign("days", days, envir = .GlobalEnv)
+    assign(paste0("days_", substr(year, 3, 4)), days, envir = .GlobalEnv)
   }
 
 }
 ```
 
-
-## Get Results for a Single Day
+## Parse Data
+### Get Results for a Single Day
 ```{r test results for a single day, eval = FALSE}
 # getDaysPomodoros(day)
 # getDaysInterruptions(day)
 ```
 
 
-## Get Results for a Single Month
-```{r test results for a single month}
-getMonthResults = function(month) {
+### Get Results for a Single Month
+```{r function to get results for a single month}
+getMonthResults = function(month, year) {
   for (day in xml_children(month)) {
-    getDaysPomodoros(day)
-    getDaysInterruptions(day)
+    getDaysPomodoros(day, year)
+    getDaysInterruptions(day, year)
   }
 }
 ```
 
-## Get Results for a Single Year
-```{r test results for a single year}
-for (month in xml_children(year)) {
-  getMonthResults(month)
+### Get Results for a Single Year
+```{r function to get results for a single year}
+getYearResults = function(year, year_txt) {
+  for (month in xml_children(year)) {
+    getMonthResults(month, year_txt)
+  }
 }
 ```
+
+### Get Results for 2015
+```{r get 2015 results}
+getYearResults(year_2015, "2015")
+```
+
+### Get Results for 2016
+```{r get 2016 results}
+getYearResults(year_2016, "2016")
+```
+
+
 
 
 ## Save Output
 ```{r save csv output files}
-write_csv(days, "../Data/Output/days.csv")
-write_csv(pomodoros, "../Data/Output/pomodoros.csv")
+write_csv(days_15, "../Data/Output/days_15.csv")
+write_csv(pomodoros_15, "../Data/Output/pomodoros_15.csv")
+write_csv(days_16, "../Data/Output/days_16.csv")
+write_csv(pomodoros_16, "../Data/Output/pomodoros_16.csv")
 ```
 
