@@ -1,3 +1,0 @@
-"0","for (month in xml_children(year)) {"
-"0","  getMonthResults(month)"
-"0","}"

@@ -1,0 +1,2362 @@
+<?xml version="1.0"?>
+<opml version="2.0">
+  <head>
+    <ownerEmail>kpwurtz@gmail.com</ownerEmail>
+  </head>
+  <body>
+    <outline text="2015" >
+      <outline text="January" />
+      <outline text="February" />
+      <outline text="March" />
+      <outline text="April" />
+      <outline text="May" />
+      <outline text="June" />
+      <outline text="July" />
+      <outline text="August" />
+      <outline text="September" />
+      <outline text="October" />
+      <outline text="November" >
+        <outline text="Tuesday 11.17 " >
+          <outline text="&lt;b&gt;POMODOROS [10]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: 3" />
+              <outline text="Growth: 3" />
+              <outline text="Health: 2" />
+              <outline text="Misc: 0" /></outline>
+            <outline text="[1]" >
+              <outline text="W: " /></outline>
+            <outline text="[2]" >
+              <outline text="W: " /></outline>
+            <outline text="[3]" >
+              <outline text="W: " /></outline>
+            <outline text="[4]" >
+              <outline text="G: Listen to &lt;u&gt;Influence&lt;/u&gt; by Robert Cialdini" /></outline>
+            <outline text="[5]" >
+              <outline text="H: Walk" /></outline>
+            <outline text="[6]" >
+              <outline text="G: Listen to &lt;u&gt;Influence&lt;/u&gt; by Robert Cialdini" /></outline>
+            <outline text="[7]" >
+              <outline text="H: Walk" /></outline>
+            <outline text="[8]" >
+              <outline text="G: Personal organization" /></outline>
+            <outline text="[9]" >
+              <outline text="G: Personal organization" /></outline>
+            <outline text="[10]" >
+              <outline text="G: Personal organization" />
+              <outline text="Interruption: Self" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS [7]&lt;/b&gt;" >
+            <outline text="Peer: 4" />
+            <outline text="Manager: 2" />
+            <outline text="Self: 1" />
+            <outline text="Other: 0" /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make Bed" />
+            <outline _complete="true" text="Meditate [2]" >
+              <outline text="21 Days of Calm [2/21]" /></outline>
+            <outline _complete="true" text="Tiny Gains [2]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Pushups: 27 #tinygains " />
+            <outline text="Pullups (set of 3): 2" />
+            <outline text="Walks: 2" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" /></outline>
+        <outline text="Wednesday 11.18 " >
+          <outline text="&lt;b&gt;POMODOROS [10]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: 5" />
+              <outline text="Growth: 4" />
+              <outline text="Health: 1" />
+              <outline text="Misc: 0" /></outline>
+            <outline text="[1] " >
+              <outline text="W: @Mixed Feedback for Mimi; start rechecking territory" /></outline>
+            <outline text="[2] " >
+              <outline text="W: @CAHOFiling2015 Recheck territory" /></outline>
+            <outline text="[3] " >
+              <outline text="W: @CAHOFiling2015 Recheck territory" /></outline>
+            <outline text="[4] " >
+              <outline text="W: @CAHOFiling2015 Recheck territory; check large impacts" /></outline>
+            <outline text="[5] " >
+              <outline text="W: @CAHOFiling2015 Update indicated WF Zone Rels" /></outline>
+            <outline text="[6]" >
+              <outline text="G: Listening to Influence by Robert Cialdini" /></outline>
+            <outline text="[7]" >
+              <outline text="G: Listening to Influence by Robert Cialdini; Blog post" /></outline>
+            <outline text="[8]" >
+              <outline text="H: Walk" /></outline>
+            <outline text="[9]" >
+              <outline text="G: Blog post" /></outline>
+            <outline text="[10]" >
+              <outline text="G: Blog post" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS [5]&lt;/b&gt;" >
+            <outline text="Peer: 2" />
+            <outline text="Manager: 3" />
+            <outline text="Self: 0" />
+            <outline text="Other: 0" /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [3]" >
+              <outline text="21 Days of Calm [3/21]" /></outline>
+            <outline _complete="true" text="Tiny Gains [3]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Pushups: 27 #tinygains " />
+            <outline text="One Arm Shoulder Press (30lbs x 5 reps): 3" />
+            <outline text="One Arm Tricep Extensions (20lbs x 5 reps): 3" />
+            <outline text="Walks: 1" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" /></outline>
+        <outline text="Thursday 11.19 " >
+          <outline text="&lt;b&gt;POMODOROS [10]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: 5" />
+              <outline text="Growth: 3" />
+              <outline text="Health: 2" />
+              <outline text="Misc: 0" /></outline>
+            <outline text="[1]" >
+              <outline text="W: @Mixed Getting organized" /></outline>
+            <outline text="[2]" >
+              <outline text="G: Listening to Influence by Robert Cialdini" /></outline>
+            <outline text="[3] " >
+              <outline text="H: Run" /></outline>
+            <outline text="[4] " >
+              <outline text="G: Reading East of Eden" /></outline>
+            <outline text="[5]" >
+              <outline text="W: @Mixed QVC job aids" /></outline>
+            <outline text="[6]" >
+              <outline text="G: Listening to The Tim Ferriss Show podcast" /></outline>
+            <outline text="[7]" >
+              <outline text="H: Walk" /></outline>
+            <outline text="[8]" >
+              <outline text="W: @Nepoer Help Brett with cat ratios and expense ratios" /></outline>
+            <outline text="[9] " >
+              <outline text="W: @Nepoer Help Brett with cat ratios and expense ratios" /></outline>
+            <outline text="[10] " >
+              <outline text="W: @Nepoer Help Brett with cat ratios and expense ratios" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS [1]&lt;/b&gt;" >
+            <outline text="Peer: 0" />
+            <outline text="Manager: 1" />
+            <outline text="Self: 0" />
+            <outline text="Other: 0" /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [4]" />
+            <outline _complete="true" text="Tiny Gains [4]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Pushups: 27 #tinygains " />
+            <outline text="Run: 1.27mi x 8:24mm #run" />
+            <outline text="Walk: 1" />
+            <outline text="Widowmakers (30 lbs x 20 reps): 1" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" /></outline>
+        <outline text="Friday 11.20 " >
+          <outline text="&lt;b&gt;POMODOROS [11]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: 8" />
+              <outline text="Growth: 2" />
+              <outline text="Health: 1" />
+              <outline text="Misc: 0" /></outline>
+            <outline text="[1] " >
+              <outline text="W: @Mixed Weekly Review" /></outline>
+            <outline text="[2] " >
+              <outline text="W: @Mixed Weekly Review" /></outline>
+            <outline text="[3]" >
+              <outline text="G: Career Development" /></outline>
+            <outline text="[4] " >
+              <outline text="W: @Mixed Helping Jeff with R #R" /></outline>
+            <outline text="[5]" >
+              <outline text="G: Listening to The Tim Ferriss Show podcast" /></outline>
+            <outline text="[6]" >
+              <outline text="H: Walk" /></outline>
+            <outline text="[7] " >
+              <outline text="W: @2015YEFeedback Feedback for Adam" /></outline>
+            <outline text="[8] " >
+              <outline text="W: @2015YEFeedback Feedback for Adam" /></outline>
+            <outline text="[9] " >
+              <outline text="W: @2015YEFeedback Feedback for Adam and Lauren" /></outline>
+            <outline text="[10]" >
+              <outline text="W: @2015YEFeedback Feedback for Lauren" /></outline>
+            <outline text="[11]" >
+              <outline text="W: @2015YEFeedback Feedback for Lauren" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS [5]&lt;/b&gt;" >
+            <outline text="Peer: 3" />
+            <outline text="Manager: 0" />
+            <outline text="Self: 1" />
+            <outline text="Other: 1" /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [5]" >
+              <outline text="21 Days of Calm: [5/21]" /></outline>
+            <outline _complete="true" text="Tiny Gains [5]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Pushups: 27 #tinygains " />
+            <outline text="Widowmakers (30 lbs x 20 reps): 2" />
+            <outline text="Walks: 1" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" >
+            <outline text="HAVE TO EMAIL TAMI!!" /></outline>
+        </outline>
+        <outline text="Saturday 11.21 " >
+          <outline text="&lt;b&gt;POMODOROS [5]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: 0" />
+              <outline text="Growth: 6" />
+              <outline text="Health: 0" />
+              <outline text="Misc: 0" /></outline>
+            <outline text="[1]" >
+              <outline text="G: Kaggle Titanic" /></outline>
+            <outline text="[2] " >
+              <outline text="G: Kaggle Titanic" /></outline>
+            <outline text="[3] " >
+              <outline text="G: Kaggle Titanic" /></outline>
+            <outline text="[4] " >
+              <outline text="G: Photography: The Art of Black and White Photography course" /></outline>
+            <outline text="[5] " >
+              <outline text="G: Photography: The Art of Black and White Photography course" /></outline>
+            <outline text="[6] " >
+              <outline text="G: Photography: The Art of Black and White Photography course" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS [2]&lt;/b&gt;" >
+            <outline text="Peer: 0" />
+            <outline text="Manager: 0" />
+            <outline text="Self: 1" />
+            <outline text="Other: 1" /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline text="Meditate []" />
+            <outline _complete="true" text="Tiny Gains [6]" />
+            <outline text="Make coffee" />
+            <outline text="Journal" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Pushups: 27 #tinygains " /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" /></outline>
+        <outline text="Sunday 11.22 " >
+          <outline text="&lt;b&gt;POMODOROS [6]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: 0" />
+              <outline text="Growth: 2" />
+              <outline text="Health: 2" />
+              <outline text="Misc: 2" /></outline>
+            <outline text="[1]" >
+              <outline text="M: Misc. to-dos" /></outline>
+            <outline text="[2] " >
+              <outline text="M: Misc. to-dos" /></outline>
+            <outline text="[3]" >
+              <outline text="H: Walk" /></outline>
+            <outline text="[4]" >
+              <outline text="G: Photography" /></outline>
+            <outline text="[5]" >
+              <outline text="H: Walk" /></outline>
+            <outline text="[6]" >
+              <outline text="G: Photography" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS [0]&lt;/b&gt;" >
+            <outline text="Peer: 0" />
+            <outline text="Manager: 0" />
+            <outline text="Self: 0" />
+            <outline text="Other: 0" /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline text="Meditate []" />
+            <outline _complete="true" text="Tiny Gains [7]" />
+            <outline text="Make coffee" />
+            <outline text="Journal" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Pushups: 27 #tinygains " />
+            <outline text="Walks: 2" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" >
+            <outline _complete="true" text="Buy stuff for Mom" />
+            <outline _complete="true" text="Send mom link to camera strap" />
+            <outline text="Health care" />
+            <outline text="Email tami" />
+            <outline text="Reply to Matthew" /></outline>
+        </outline>
+        <outline text="Monday 11.23 " >
+          <outline text="&lt;b&gt;POMODOROS [15]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: 9" />
+              <outline text="Growth: 3" />
+              <outline text="Health: 3" />
+              <outline text="Misc: 0" /></outline>
+            <outline text="[1] " >
+              <outline text="W: @Mixed Getting set up for the week; Helping Matthew" >
+                <outline text="Thoughts regarding working on the CA team..." />
+                <outline text="I personally feel like single state regions are more interesting than the multi-state regions, and I think that CA is probably the most interesting of the single state regions due to the regulatory constraints, the uniqueness of the risks (particularly on property with the wildfires and earthquakes), the uniqueness of the methodologies (mix of state mandated and internal), and the high profile nature of the state. I also personally like that we pretty much never follow a countrywide methodology because it allows us a lot of interesting opportunities to create our own approach to fit each situation. " />
+                <outline text="The downside of all of the above is that it can be a pretty intense environment. We've been overworked probably 75% of the time I've been on the team (that's been a consistent sentiment amongst all analysts on the team, so I don't think it's just me) and the stress levels are usually somewhat high. Analysts on the team have also had difficulty passing exams while on the team due to the workload. I think it's possible to keep a manageable workload level on the team, but you just have to be willing to push back on timelines and say &quot;No&quot; to things. That's not very easy to do on a consistent basis, but it's probably a good skill to learn." />
+                <outline text="As far as working for Megan goes, I have mixed feelings (please keep this to ourselves). Megan has had to juggle a lot, and as a result her managing can be somewhat inconsistent. One day you'll be asked to make quick assumptions to get a project done quickly and then the next day you'll be asked to add a layer to the project that likely won't add much value and will take several days. I find myself feeling frustrated with the way the team is managed (always being asked to do more work than is appropriate, aforementioned inconsistencies, etc.) quite a bit. That said, a lot of the issues can be alleviated by taking more direct control over your time management...and like I said earlier, that's a good thing to learn. And on the other hand, I've learned a ton from working for Megan. She's very smart and will almost always push you to produce a higher-level work product than you would otherwise. Some might find that annoying, but I like having someone keep me from getting lazy when I start slacking off." />
+                <outline text="Ultimately, I think whether it's a right fit will probably come down to a personality thing and where you want to situate work in your life. They usually only bring analysts who are experienced, technical, and a bit creative onto the team, and from what I've seen and heard about your work I definitely don't think there are any concerns there. I think you'd be awesome on the team and I think being on CA is a really incredible development opportunity. The only real downside is that the high-pressure environment can cause some problems...if you're willing to take ownership of your time management and accept that there are going to be some stressful high-workload times, I think CA would be a great fit." />
+                <outline text="Let me know if you want to chat more about any of my ramblings or if you have any specific questions!" /></outline>
+            </outline>
+            <outline text="[2] " >
+              <outline text="W: @Mixed Getting set up for the week; Helping Matthew" /></outline>
+            <outline text="[3]" >
+              <outline text="G: Listening to The Tim Ferriss Show podcast" /></outline>
+            <outline text="[4]" >
+              <outline text="H: Walk" /></outline>
+            <outline text="[5] " >
+              <outline text="W: [1] @CAAutoSequential2016 Sequential Analysis" /></outline>
+            <outline text="[6] " >
+              <outline text="W: [2] @CAAutoSequential2016 Sequential Analysis" /></outline>
+            <outline text="[7] " >
+              <outline text="W: [3] @CAAutoSequential2016 Sequential Analysis" /></outline>
+            <outline text="[8]" >
+              <outline text="G: Listening to The Tim Ferriss Show podcast" /></outline>
+            <outline text="[9]" >
+              <outline text="H: Walk" /></outline>
+            <outline text="[10] " >
+              <outline text="W: @CAHOFiling2015 Updating documentation" /></outline>
+            <outline text="[11] " >
+              <outline text="W: @CAHOFiling2015 Updating documentation" /></outline>
+            <outline text="[12]" >
+              <outline text="W: @Nepoer Nepoer requests" /></outline>
+            <outline text="[13] " >
+              <outline text="W: @Nepoer Nepoer requests" /></outline>
+            <outline text="[14]" >
+              <outline text="H: Walk" /></outline>
+            <outline text="[15]" >
+              <outline text="G: Listening to The Tim Ferriss Show podcast" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS [5]&lt;/b&gt;" >
+            <outline text="Peer: 1" />
+            <outline text="Manager: 3" />
+            <outline text="Self: 0" />
+            <outline text="Other: 1" /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [1]" />
+            <outline _complete="true" text="Tiny Gains [8]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Pushups: 28 #tinygains " />
+            <outline text="Bicep Curls (30 lbs x 5 reps): 4" />
+            <outline text="Walks: 3" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" >
+            <outline text="Udemy courses" />
+            <outline text="Buy Calm subscription for a gift?" />
+            <outline text="Text Christina about Robyn!" /></outline>
+        </outline>
+        <outline text="Tuesday 11.24 " >
+          <outline text="&lt;b&gt;POMODOROS [8]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: 5" />
+              <outline text="Growth: 2" />
+              <outline text="Health: 1" />
+              <outline text="Misc: 0" /></outline>
+            <outline text="[1] " >
+              <outline text="W: @Mixed Getting organized; Sequential Analysis" /></outline>
+            <outline text="[2] " >
+              <outline text="W: [4] @CAAutoSequential2016 Sequential Analysis" /></outline>
+            <outline text="[3]" >
+              <outline text="G: Reading All Involved by Ryan Gattis" /></outline>
+            <outline text="[4]" >
+              <outline text="H: Walk" /></outline>
+            <outline text="[5] " >
+              <outline text="W: @2015YEFeedback Feedback for Ryan" /></outline>
+            <outline text="[6] " >
+              <outline text="W: @2015YEFeedback Feedback for Ryan; Feedback for Elizabeth" /></outline>
+            <outline text="[7] " >
+              <outline text="W: [5] @CAAutoSequential2016 Sequential Analysis" /></outline>
+            <outline text="[8]" >
+              <outline text="G: Listening to The Tim Ferriss Show podcast" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS [2]&lt;/b&gt;" >
+            <outline text="Peer: 0" />
+            <outline text="Manager: 0" />
+            <outline text="Self: 1" />
+            <outline text="Other: 1" /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [2]" />
+            <outline _complete="true" text="Tiny Gains [9]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Pushups: 28 #tinygains " />
+            <outline text="Walks: 1" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" /></outline>
+        <outline text="Wednesday 11.25 " >
+          <outline text="&lt;b&gt;POMODOROS [8]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: 6" />
+              <outline text="Growth: 1" />
+              <outline text="Health: 1" />
+              <outline text="Misc: 0" /></outline>
+            <outline text="[1] " >
+              <outline text="W: @Mixed Getting set up for the day; Feedback for Elizabeth" /></outline>
+            <outline text="[2] " >
+              <outline text="W: @2015YEFeedback Feedback for Elizabeth" /></outline>
+            <outline text="[3] " >
+              <outline text="W: [6] @CAAutoSequential2016 Auto Sequential" /></outline>
+            <outline text="[4] " >
+              <outline text="W: [7] @CAAutoSequential2016 Auto Sequential" /></outline>
+            <outline text="[5] " >
+              <outline text="W: [8] @CAAutoSequential2016 Auto Sequential" /></outline>
+            <outline text="[6] " >
+              <outline text="W: [9] @CAAutoSequential2016 Auto Sequential" /></outline>
+            <outline text="[7]" >
+              <outline text="G: Listening to The Tim Ferriss Show podcast" /></outline>
+            <outline text="[8]" >
+              <outline text="H: Walk" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS [1]&lt;/b&gt;" >
+            <outline text="Peer: 0" />
+            <outline text="Manager: 0" />
+            <outline text="Self: 0" />
+            <outline text="Other: 1" /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [3]" />
+            <outline _complete="true" text="Tiny Gains [10]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Pushups: 28 #tinygains " />
+            <outline text="Pullups (x3): 4" />
+            <outline text="Walks: 1" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" /></outline>
+        <outline text="Thursday 11.26 " >
+          <outline text="&lt;b&gt;POMODOROS []&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: " />
+              <outline text="Growth: " />
+              <outline text="Health: " />
+              <outline text="Misc: " /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS []&lt;/b&gt;" >
+            <outline text="Peer: " />
+            <outline text="Manager: " />
+            <outline text="Self: " />
+            <outline text="Other: " /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline text="Meditate []" />
+            <outline _complete="true" text="Tiny Gains [11]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Pushups: 28 #tinygains " /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" /></outline>
+        <outline text="Friday 11.27" >
+          <outline text="&lt;b&gt;POMODOROS []&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: " />
+              <outline text="Growth: " />
+              <outline text="Health: " />
+              <outline text="Misc: " /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS []&lt;/b&gt;" >
+            <outline text="Peer: " />
+            <outline text="Manager: " />
+            <outline text="Self: " />
+            <outline text="Other: " /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [1]" />
+            <outline _complete="true" text="Tiny Gains [12]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Pushups: 28 #tinygains " /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" /></outline>
+        <outline text="Saturday 11.28" >
+          <outline text="&lt;b&gt;POMODOROS []&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: " />
+              <outline text="Growth: " />
+              <outline text="Health: " />
+              <outline text="Misc: " /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS []&lt;/b&gt;" >
+            <outline text="Peer: " />
+            <outline text="Manager: " />
+            <outline text="Self: " />
+            <outline text="Other: " /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [2]" />
+            <outline _complete="true" text="Tiny Gains [13]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Pushups: 28 #tinygains " /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" /></outline>
+        <outline text="Sunday 11.29 " >
+          <outline text="&lt;b&gt;POMODOROS [2]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: " />
+              <outline text="Growth: " />
+              <outline text="Health: " />
+              <outline text="Misc: 2" /></outline>
+            <outline text="[1] " >
+              <outline text="M: Getting organized for the day" /></outline>
+            <outline text="[2] " >
+              <outline text="M: Hotel booking; cleaning up/organizing" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS []&lt;/b&gt;" >
+            <outline text="Peer: " />
+            <outline text="Manager: " />
+            <outline text="Self: " />
+            <outline text="Other: " /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [3]" />
+            <outline _complete="true" text="Tiny Gains [14]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Pushups: 28 #tinygains " />
+            <outline text="Bicep Curls (30 lbs x 5 reps): 4" />
+            <outline text="Walks: 1" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" _note=" " /></outline>
+        <outline text="Monday 11.30 " >
+          <outline text="&lt;b&gt;POMODOROS [15]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: 9" />
+              <outline text="Growth: 3" />
+              <outline text="Health: 3" />
+              <outline text="Misc: 0" /></outline>
+            <outline text="[1] " >
+              <outline text="W: @Mixed Getting organized and set up for the day" /></outline>
+            <outline text="[2] " >
+              <outline text="W: @Mixed Feedback for Matt; Planning work for the week" /></outline>
+            <outline text="[3] " >
+              <outline text="W: @Mixed Planning work for the week; Reasonability check SA programs results" /></outline>
+            <outline text="[4] " >
+              <outline text="G: Listening to The Tim Ferriss Show podcast" /></outline>
+            <outline text="[5] " >
+              <outline text="H: Walk" /></outline>
+            <outline text="[6] " >
+              <outline text="W: [10] @CAAutoSequential2016 Reasonability check SA programs results" /></outline>
+            <outline text="[7] " >
+              <outline text="W: [11] @CAAutoSequential2016 Reasonability check SA programs results" /></outline>
+            <outline text="[8]  " >
+              <outline text="W: [12] @CAAutoSequential2016 Reasonability check SA programs results; RE stuff" /></outline>
+            <outline text="[9] " >
+              <outline text="G: Listening to Influence by Robert Cialdini" /></outline>
+            <outline text="[10] " >
+              <outline text="H: Walk" /></outline>
+            <outline text="[11] " >
+              <outline text="W: @Mixed RE stuff; Trying to fill out VEEs; Checking Elizabeth's auto workbook" /></outline>
+            <outline text="[12] " >
+              <outline text="W: @CheckAutoCDIWorkbook Checking Elizabeth's auto workbook" /></outline>
+            <outline text="[13] " >
+              <outline text="W: @CheckAutoCDIWorkbook Checking Elizabeth's auto workbook" /></outline>
+            <outline text="[14] " >
+              <outline text="G: Listening to Influence by Robert Cialdini" /></outline>
+            <outline text="[15] " >
+              <outline text="H: Walk" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS [4]&lt;/b&gt;" >
+            <outline text="Peer: 0" />
+            <outline text="Manager: 0" />
+            <outline text="Self: 1" />
+            <outline text="Other: 3" /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [4]" />
+            <outline _complete="true" text="Tiny Gains [15]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Pushups: 29 #tinygains " />
+            <outline text="Standing Pomodoros: 2" />
+            <outline text="Pullups (Sets of 3): 5 " />
+            <outline text="Standing Shoulder Press (30 lbs x 5 reps): 5" />
+            <outline text="Walks: 3" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" >
+            <outline text="Book hotel" />
+            <outline text="Set up days off" />
+            <outline text="VEEs" />
+            <outline text="Order new health care card" />
+            <outline text="Laundry" /></outline>
+        </outline>
+      </outline>
+      <outline text="December" >
+        <outline text="Tuesday 12.1 " >
+          <outline text="&lt;b&gt;POMODOROS [12]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: 10" />
+              <outline text="Growth: 1" />
+              <outline text="Health: 1" />
+              <outline text="Misc: 0" /></outline>
+            <outline text="[1] " >
+              <outline text="W: @Mixed Getting set up for the day; RE stuff" /></outline>
+            <outline text="[2] " >
+              <outline text="W: @Mixed RE stuff; Answering a Nepoer question; Starting some SA code" /></outline>
+            <outline text="[3]" >
+              <outline text="G: Listening to The Tim Ferriss Show podcast" /></outline>
+            <outline text="[4]" >
+              <outline text="H: Walk" /></outline>
+            <outline text="[5]" >
+              <outline text="W: [13] @CAAutoSequential2016 Auto Sequential" /></outline>
+            <outline text="[6] " >
+              <outline text="W: [14] @CAAutoSequential2016 Auto Sequential" /></outline>
+            <outline text="[7] " >
+              <outline text="W: [15] @CAAutoSequential2016 Auto Sequential" /></outline>
+            <outline text="[8] " >
+              <outline text="W: [16] @CAAutoSequential2016 Auto Sequential" /></outline>
+            <outline text="[9] " >
+              <outline text="W: [17] @CAAutoSequential2016 Auto Sequential" /></outline>
+            <outline text="[10] " >
+              <outline text="W: [18] @CAAutoSequential2016 Auto Sequential" /></outline>
+            <outline text="[11] " >
+              <outline text="W: [19] @CAAutoSequential2016 Auto Sequential" /></outline>
+            <outline text="[12] " >
+              <outline text="W: [20] @CAAutoSequential2016 Auto Sequential" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS [5]&lt;/b&gt;" >
+            <outline text="Peer: 3" />
+            <outline text="Manager: 0" />
+            <outline text="Self: 0" />
+            <outline text="Other: 2" /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [5]" />
+            <outline _complete="true" text="Tiny Gains [16]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Pushups: 29 #tinygains" />
+            <outline text="Standing Pomodoros: 2" />
+            <outline text="Widowmakers (30 lbs x 20 reps): 3" />
+            <outline text="Walks: 1" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" >
+            <outline text="Book hotel" />
+            <outline text="Set up days off" />
+            <outline text="VEEs" />
+            <outline text="Order new health care card" />
+            <outline _complete="true" text="Laundry" />
+            <outline text="8760 Hours? Work on that?" />
+            <outline text="Overview of Projects in R?" >
+              <outline text="What a project is" />
+              <outline text="Why it's useful" />
+              <outline text="Set up a project" />
+              <outline text="Get data from a couple sources" >
+                <outline text="WinSCP" />
+                <outline text="Putty" />
+                <outline text="Jointly mapped folders (Windows Explorer)" />
+                <outline text="Upload through RStudio" /></outline>
+              <outline text="Do some simple stuff" />
+              <outline text="Revisit why it's useful" /></outline>
+            <outline text="Take notes on estimating time for design projects" _note="http://www.smashingmagazine.com/2009/06/effective-strategy-to-estimate-time-for-your-design-projects/" /></outline>
+        </outline>
+        <outline text="Wednesday 12.2 " >
+          <outline text="&lt;b&gt;POMODOROS [13]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: 9" />
+              <outline text="Growth: 3" />
+              <outline text="Health: 1" />
+              <outline text="Misc: 0" /></outline>
+            <outline text="[1] " >
+              <outline text="W: @Mixed Getting set up for the day; RE Stuff; Pomodoro research/fine-tuning" /></outline>
+            <outline text="[2] " >
+              <outline text="W: @Mixed Pomodoro research/fine-tuning" /></outline>
+            <outline text="[3] " >
+              <outline text="W: [20] @CAAutoSequential2016 Investigating CRLing" /></outline>
+            <outline text="[4] " >
+              <outline text="G: Listening to The Tim Ferriss Show podcast and Influence by Robert Cialdini" /></outline>
+            <outline text="[5] " >
+              <outline text="H: Walk" /></outline>
+            <outline text="[6] " >
+              <outline text="W: @Mixed VEE stuff; RE workload survey; Auto Sequential CRL investigation" /></outline>
+            <outline text="[7]" >
+              <outline text="W: [21] @CAAutoSequential2016 Investigating CRLing" /></outline>
+            <outline text="[8] " >
+              <outline text="W: [22] @CAAutoSequential2016 Investigating CRLing" /></outline>
+            <outline text="[9]" >
+              <outline text="G: Listening to Influence by Robert Cialdini" /></outline>
+            <outline text="[10]" >
+              <outline text="G: Listening to Influence by Robert Cialdini" /></outline>
+            <outline text="[11] " >
+              <outline text="W: [23] @CAAutoSequential2016 Investigating CRLing" /></outline>
+            <outline text="[12] " >
+              <outline text="W: [24] @CAAutoSequential2016 Investigating CRLing" /></outline>
+            <outline text="[13] " >
+              <outline text="W: [25] @CAAutoSequential2016 Investigating CRLing" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS [3]&lt;/b&gt;" >
+            <outline text="Peer: 2" />
+            <outline text="Manager: 0" />
+            <outline text="Self: 0" />
+            <outline text="Other: 1" /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [6]" />
+            <outline _complete="true" text="Tiny Gains [16]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal []" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Pushups: 29 #tinygains" />
+            <outline text="Standing Pomodoros: 3" />
+            <outline text="Abs: 4" />
+            <outline text="Walks: 1" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" >
+            <outline text="Book hotel" />
+            <outline text="Set up days off" />
+            <outline text="Order new health care card" />
+            <outline _complete="true" text="VEEs" /></outline>
+        </outline>
+        <outline text="Thursday 12.3 " >
+          <outline text="&lt;b&gt;POMODOROS [7]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: 3" />
+              <outline text="Growth: 2" />
+              <outline text="Health: 2" />
+              <outline text="Misc: 0" /></outline>
+            <outline text="[1] " >
+              <outline text="W: [26] @CAAutoSequential2016 Checking CRL Factors" /></outline>
+            <outline text="[2] " >
+              <outline text="G: Listening to Influence by Robert Cialdini" /></outline>
+            <outline text="[3] " >
+              <outline text="H: Walk" /></outline>
+            <outline text="[4] " >
+              <outline text="W: @Mixed Helping Mimi with communication to agents; Auto Sequential: Checking CRL Factors" /></outline>
+            <outline text="[5]" >
+              <outline text="G: Listening to Influence by Robert Cialdini" /></outline>
+            <outline text="[6]" >
+              <outline text="H: Walk" /></outline>
+            <outline text="[7] " >
+              <outline text="W: [27] @CAAutoSequential2016 Checking CRL Factors" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS [3]&lt;/b&gt;" >
+            <outline text="Peer: 3" />
+            <outline text="Manager: 0" />
+            <outline text="Self: 0" />
+            <outline text="Other: 0" /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [7]" />
+            <outline _complete="true" text="Tiny Gains [16]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Pushups: 29 #tinygains" />
+            <outline text="Standing Pomodoros: 1" />
+            <outline text="Tricep extensions (20 lbs x 5 reps): 4" />
+            <outline text="Walks: 1" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" >
+            <outline text="Book hotel" />
+            <outline text="Set up days off" />
+            <outline text="Order new health care card" />
+            <outline text="Benefits" /></outline>
+        </outline>
+        <outline text="Friday 12.4 " >
+          <outline text="&lt;b&gt;POMODOROS [12]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: 10" />
+              <outline text="Growth: 1" />
+              <outline text="Health: 1" />
+              <outline text="Misc: 0" /></outline>
+            <outline text="[1] " >
+              <outline text="W: @Mixed Getting set up for the day; Sequential Analysis" /></outline>
+            <outline text="[2] " >
+              <outline text="W: [28] @CAAutoSequential2016 Investigating PGS/EGR" /></outline>
+            <outline text="[3]" >
+              <outline text="G: Reading Ready Player One" /></outline>
+            <outline text="[4]" >
+              <outline text="H: Run" /></outline>
+            <outline text="[5] " >
+              <outline text="W: @Mixed Answering a random question; Sequential Analysis" /></outline>
+            <outline text="[6] " >
+              <outline text="W: [29] @CAAutoSequential2016 Checking factors" /></outline>
+            <outline text="[7] " >
+              <outline text="W: [30] @CAAutoSequential2016 Checking factors and documenting" /></outline>
+            <outline text="[8] " >
+              <outline text="W: [31] @CAAutoSequential2016 Checking factors and documenting" /></outline>
+            <outline text="[9] " >
+              <outline text="W: [32] @CAAutoSequential2016 Checking factors and documenting" /></outline>
+            <outline text="[10] " >
+              <outline text="W: [33] @CAAutoSequential2016 Checking factors and documenting" /></outline>
+            <outline text="[11] " >
+              <outline text="W: [34] @CAAutoSequential2016 Checking factors and documenting" /></outline>
+            <outline text="[12] " >
+              <outline text="W: [35] @CAAutoSequential2016 Documenting/drafting an email to Megan" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS [2]&lt;/b&gt;" >
+            <outline text="Peer: 1" />
+            <outline text="Manager: 0" />
+            <outline text="Self: 0" />
+            <outline text="Other: 1" /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [8]" />
+            <outline _complete="true" text="Tiny Gains [17]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Pushups: 29 #tinygains" />
+            <outline text="Kettlebell Swings (30 lbs x 20 reps): 4" />
+            <outline text="Run: 1.3mi x 7:42mm #run " /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" >
+            <outline text="Book hotel" />
+            <outline text="Set up days off" />
+            <outline text="Order new health care card" />
+            <outline text="Benefits" /></outline>
+        </outline>
+        <outline text="Saturday 12.5" >
+          <outline text="&lt;b&gt;POMODOROS [3]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: 1" />
+              <outline text="Growth: 0" />
+              <outline text="Health: 2" />
+              <outline text="Misc: 0" /></outline>
+            <outline text="[1]" >
+              <outline text="W: @Mixed Not recorded" /></outline>
+            <outline text="[2]" >
+              <outline text="H: Walk" /></outline>
+            <outline text="[3]" >
+              <outline text="H: Walk" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS [0]&lt;/b&gt;" >
+            <outline text="Peer: 0" />
+            <outline text="Manager: 0" />
+            <outline text="Self: 0" />
+            <outline text="Other: 0" /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [9]" />
+            <outline _complete="true" text="Tiny Gains [18]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Pushups: 29 #tinygains" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" /></outline>
+        <outline text="Sunday 12.6 " >
+          <outline text="&lt;b&gt;POMODOROS [5]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: 2" />
+              <outline text="Growth: 0" />
+              <outline text="Health: 3" />
+              <outline text="Misc: 0" /></outline>
+            <outline text="[1]" >
+              <outline text="W: @Mixed PTO; Sequential Analysis" /></outline>
+            <outline text="[2] " >
+              <outline text="W: [36] @CAAutoSequential2016 Re-running data prep step" /></outline>
+            <outline text="[3]" >
+              <outline text="H: Walk" /></outline>
+            <outline text="[4]" >
+              <outline text="H: Walk" /></outline>
+            <outline text="[5]" >
+              <outline text="H: Walk" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS [0]&lt;/b&gt;" >
+            <outline text="Peer: 0" />
+            <outline text="Manager: 0" />
+            <outline text="Self: 0" />
+            <outline text="Other: 0" /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [10]" />
+            <outline _complete="true" text="Tiny Gains [19]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Pushups: 29 #tinygains" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" /></outline>
+        <outline text="Monday 12.7 " >
+          <outline text="&lt;b&gt;POMODOROS [10]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: 6" />
+              <outline text="Growth: 3" />
+              <outline text="Health: 1" />
+              <outline text="Misc: 0" /></outline>
+            <outline text="[1] " >
+              <outline text="W: @Mixed Getting set up for the day" /></outline>
+            <outline text="[2] " >
+              <outline text="W: [37] @CAAutoSequential2016 Checking CRL results" /></outline>
+            <outline text="[3] " >
+              <outline text="W: @Mixed Running CRL stuff for SA; Planning out week" /></outline>
+            <outline text="[4] " >
+              <outline text="G: Listening to The Tim Ferriss Show podcast" /></outline>
+            <outline text="[5] " >
+              <outline text="H: Walk" /></outline>
+            <outline text="[6] " >
+              <outline text="W: @CheckAutoCDIWorkbook https://workflowy.com/#/c27c7c7e27a5" /></outline>
+            <outline text="[7] " >
+              <outline text="W: @Mixed Sequential Analysis and checking Elizabeth's workbook https://workflowy.com/#/c27c7c7e27a5" /></outline>
+            <outline text="[8]" >
+              <outline text="G: Listening to The Tim Ferriss Show podcast" /></outline>
+            <outline text="[9]" >
+              <outline text="G: Listening to The Tim Ferriss Show podcast" /></outline>
+            <outline text="[10] " >
+              <outline text="W: [38] @CAAutoSequential2016 Checking CRL factors" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS [1]&lt;/b&gt;" >
+            <outline text="Peer: 0" />
+            <outline text="Manager: 0" />
+            <outline text="Self: 1" />
+            <outline text="Other: 0" /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [11]" />
+            <outline _complete="true" text="Tiny Gains [20]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Pushups: 30 #tinygains" />
+            <outline text="Bicep Curls (30 lbs x 5 reps): 5" />
+            <outline text="Walks: 1" />
+            <outline text="Standing Pomodoros: 2" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" /></outline>
+        <outline text="Tuesday 12.8 " >
+          <outline text="&lt;b&gt;POMODOROS [3]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: 3" />
+              <outline text="Growth: 0" />
+              <outline text="Health: 0" />
+              <outline text="Misc: 0" /></outline>
+            <outline text="[1] " >
+              <outline text="W: @Mixed Troubleshooting R servers; Planning timeline for SA" /></outline>
+            <outline text="[2]" >
+              <outline text="W: [39] @CAAutoSequential2016 Planning timeline" /></outline>
+            <outline text="[3] " >
+              <outline text="W: [40] @CAAutoSequential2016 Running a 100k SA for testing" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS [2]&lt;/b&gt;" >
+            <outline text="Peer: 0" />
+            <outline text="Manager: 1" />
+            <outline text="Self: 0" />
+            <outline text="Other: 1" /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [10]" />
+            <outline _complete="true" text="Tiny Gains [21]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Pushups: 30 #tinygains" />
+            <outline text="Standing Pomodoros: 1" />
+            <outline text="Pullups (3 reps): 2" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" /></outline>
+        <outline text="Wednesday 12.9 " >
+          <outline text="&lt;b&gt;POMODOROS [10]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: 6" />
+              <outline text="Growth: 2" />
+              <outline text="Health: 1" />
+              <outline text="Misc: 0" /></outline>
+            <outline text="[1] " >
+              <outline text="W: @Mixed Getting set up for the day" /></outline>
+            <outline text="[2] " >
+              <outline text="W: @CheckAutoCDIWorkbook https://workflowy.com/#/9336311d30f6" /></outline>
+            <outline text="[3]" >
+              <outline text="G: Listening to The Tim Ferriss Show podcast" /></outline>
+            <outline text="[4]" >
+              <outline text="H: Walk" /></outline>
+            <outline text="[5] " >
+              <outline text="W: @CheckAutoCDIWorkbook https://workflowy.com/#/9336311d30f6" /></outline>
+            <outline text="[7]" >
+              <outline text="G: Listening to The Tim Ferriss Show podcast" /></outline>
+            <outline text="[8] " >
+              <outline text="W: @Mixed Helping Jeff with R #R" /></outline>
+            <outline text="[9] " >
+              <outline text="W: @Mixed Helping Jeff with R #R" /></outline>
+            <outline text="[10]" >
+              <outline text="W: @Mixed Helping Jeff with R #R" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS [5]&lt;/b&gt;" >
+            <outline text="Peer: 4" />
+            <outline text="Manager: 0" />
+            <outline text="Self: 1" />
+            <outline text="Other: 0" /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [13]" />
+            <outline _complete="true" text="Tiny Gains [22]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Pushups: 30 #tinygains" />
+            <outline text="Tricep Extensions (20 lbs x 5 reps): 3" />
+            <outline text="Standing Pomodoros: 3" />
+            <outline text="Walks: 1" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" /></outline>
+        <outline text="Thursday 12.10 " >
+          <outline text="&lt;b&gt;POMODOROS [16]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: 10" />
+              <outline text="Growth: 3" />
+              <outline text="Health: 3" />
+              <outline text="Misc: 0" /></outline>
+            <outline text="[1] " >
+              <outline text="W: @Mixed Getting set up for the day" /></outline>
+            <outline text="[2]" >
+              <outline text="G: Listening to The Tim Ferriss Show podcast and Influence by Robert Cialdini" /></outline>
+            <outline text="[3]" >
+              <outline text="H: Walk" /></outline>
+            <outline text="[4] " >
+              <outline text="W: @Nepoer Making a flat file for others to use" /></outline>
+            <outline text="[5] " >
+              <outline text="W: @Mixed Nepoer (making a flat file for others to use) and SA (running 100k through SA)" /></outline>
+            <outline text="[6] " >
+              <outline text="W: [41] @CAAutoSequential2016 Running 100k through SA" /></outline>
+            <outline text="[7] " >
+              <outline text="W: [42] @CAAutoSequential2016 Running 100k through SA" /></outline>
+            <outline text="[8] " >
+              <outline text="W: [43] @CAAutoSequential2016 Running 100k through SA" /></outline>
+            <outline text="[9] " >
+              <outline text="W: [44] @CAAutoSequential2016 Running 100k through SA" /></outline>
+            <outline text="[10] " >
+              <outline text="W: [45] @CAAutoSequential2016 Running 100k through SA" /></outline>
+            <outline text="[11]" >
+              <outline text="W: @Mixed Putting together a SAS vs. R comparison regarding join efficiency #R #SAS" /></outline>
+            <outline text="[12] " >
+              <outline text="W: @Mixed Putting together a SAS vs. R comparison regarding join efficiency; Running 100k SA #R #SAS" /></outline>
+            <outline text="[13]" >
+              <outline text="G: Photography" /></outline>
+            <outline text="[14]" >
+              <outline text="H: Walk" /></outline>
+            <outline text="[15]" >
+              <outline text="G: Photography" /></outline>
+            <outline text="[16]" >
+              <outline text="H: Walk" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS [8]&lt;/b&gt;" >
+            <outline text="Peer: 6" />
+            <outline text="Manager: 2" />
+            <outline text="Self: 0" />
+            <outline text="Other: 0" /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [14]" />
+            <outline _complete="true" text="Tiny Gains [23]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Pushups: 30 #tinygains" />
+            <outline text="Straight Leg Dead Lifts (30 lbs x 10 reps): 2" />
+            <outline text="Walks: 3" />
+            <outline text="Standing Pomodoros: 3" />
+            <outline text="Overhead Squat (30 lbs x 10 reps): 1" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" /></outline>
+        <outline text="Friday 12.11 " >
+          <outline text="&lt;b&gt;POMODOROS [9]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: 9" />
+              <outline text="Growth: 2" />
+              <outline text="Health: 0" />
+              <outline text="Misc: 0" /></outline>
+            <outline text="[1] " >
+              <outline text="W: @Mixed Getting set up for the day, SA exporting " /></outline>
+            <outline text="[2] " >
+              <outline text="W: [46] @CAAutoSequential2016 Exporting" /></outline>
+            <outline text="[3] " >
+              <outline text="W: [47] @CAAutoSequential2016 Exporting " /></outline>
+            <outline text="[4] " >
+              <outline text="W: @Mixed Replying to Grace" /></outline>
+            <outline text="[5] " >
+              <outline text="W: @Mixed Replying to Grace" /></outline>
+            <outline text="[6] " >
+              <outline text="W: @Mixed Replying to Grace" /></outline>
+            <outline text="[7] " >
+              <outline text="W: @Mixed Replying to Josh" /></outline>
+            <outline text="[8]" >
+              <outline text="G: Listening to Influence by Robert Cialdini" /></outline>
+            <outline text="[9]" >
+              <outline text="G: Listening to Influence by Robert Cialdini" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS [4]&lt;/b&gt;" >
+            <outline text="Peer: 3" />
+            <outline text="Manager: 0" />
+            <outline text="Self: 0" />
+            <outline text="Other: 1" /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [15]" />
+            <outline _complete="true" text="Tiny Gains [24]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Pushups: 30 #tinygains" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" >
+            <outline text="Send Lindsay RMarkdown/Shiny stuff!" /></outline>
+        </outline>
+        <outline text="Saturday 12.12" >
+          <outline text="&lt;b&gt;POMODOROS []&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work:" />
+              <outline text="Growth:" />
+              <outline text="Health:" />
+              <outline text="Misc:" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS []&lt;/b&gt;" >
+            <outline text="Peer:" />
+            <outline text="Manager:" />
+            <outline text="Self:" />
+            <outline text="Other:" /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline text="Meditate []" />
+            <outline _complete="true" text="Tiny Gains [25]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Pushups: 30 #tinygains" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" >
+            <outline text="Christina visiting!" /></outline>
+        </outline>
+        <outline text="Sunday 12.13" >
+          <outline text="&lt;b&gt;POMODOROS []&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work:" />
+              <outline text="Growth:" />
+              <outline text="Health:" />
+              <outline text="Misc:" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS []&lt;/b&gt;" >
+            <outline text="Peer:" />
+            <outline text="Manager:" />
+            <outline text="Self:" />
+            <outline text="Other:" /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline text="Meditate []" />
+            <outline _complete="true" text="Tiny Gains [26]" />
+            <outline text="Make coffee" />
+            <outline text="Journal" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Pushups: 30 #tinygains" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" >
+            <outline text="Christina visiting!" /></outline>
+        </outline>
+        <outline text="Monday 12.14  " >
+          <outline text="&lt;b&gt;POMODOROS [17]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: 12" />
+              <outline text="Growth: 3" />
+              <outline text="Health: 2" />
+              <outline text="Misc: 0" /></outline>
+            <outline text="[1] " >
+              <outline text="W: @Mixed Getting set up for the day" /></outline>
+            <outline text="[2] " >
+              <outline text="W: @Mixed RE stuff; Email update to Megan" /></outline>
+            <outline text="[3] " >
+              <outline text="W: @Mixed Planning work for the week; SA 100k" /></outline>
+            <outline text="[4]" >
+              <outline text="G: Listening to Bold" /></outline>
+            <outline text="[5]" >
+              <outline text="H: Walk" /></outline>
+            <outline text="[6] " >
+              <outline text="W: [48] @CAAutoSequential2016 Run 100k through all steps" /></outline>
+            <outline text="[7] " >
+              <outline text="W: [49] @CAAutoSequential2016 Run 100k through all steps" /></outline>
+            <outline text="[8] " >
+              <outline text="W: [50] @CAAutoSequential2016 Run 100k through all steps" /></outline>
+            <outline text="[9]" >
+              <outline text="G: Listening to Bold" /></outline>
+            <outline text="[10]" >
+              <outline text="H: Walk" /></outline>
+            <outline text="[11]" >
+              <outline text="G: Listening to Bold and reading 4HB" /></outline>
+            <outline text="[12] " >
+              <outline text="W: [51] @CAAutoSequential2016 Run 100k through all steps" /></outline>
+            <outline text="[13] " >
+              <outline text="W: [52] @CAAutoSequential2016 Run 100k through all steps" /></outline>
+            <outline text="[14] " >
+              <outline text="W: @CAAutoSequential2016 Run 100k through all steps" /></outline>
+            <outline text="[15]" >
+              <outline text="W: [53] @CAAutoSequential2016 Run 100k through all steps" /></outline>
+            <outline text="[16] " >
+              <outline text="W: [54] @CAAutoSequential2016 Run 100k through all steps" /></outline>
+            <outline text="[17]" >
+              <outline text="W: [55] @CAAutoSequential2016 Run 100k through all steps" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS [6]&lt;/b&gt;" >
+            <outline text="Peer: 1" />
+            <outline text="Manager: 4" />
+            <outline text="Self: 1" />
+            <outline text="Other: 1" /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [1]" />
+            <outline _complete="true" text="Tiny Gains [27]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal []" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Meal Log #4HB " >
+              <outline text="Breakfast: B" >
+                <outline text="Whey protein shake" />
+                <outline text="Coffee" /></outline>
+              <outline text="Lunch: A" >
+                <outline text="Steak Salad at La Luz" >
+                  <outline text="Steak" />
+                  <outline text="Black Beans" />
+                  <outline text="Romaine Lettuce" />
+                  <outline text="Tomatoes/Salsa" />
+                  <outline text="Guacamole" /></outline>
+                <outline text="Water" /></outline>
+              <outline text="Dinner: B" >
+                <outline text="Chicken Pot Pie" >
+                  <outline text="Chicken" />
+                  <outline text="Potatoes" />
+                  <outline text="Carrots" /></outline>
+                <outline text="Water" />
+                <outline text="Red Wine (Cabernet Sauvignon)" /></outline>
+              <outline text="Snack: D" >
+                <outline text="Smoked salmon" />
+                <outline text="Pitzel" />
+                <outline text="Cake" /></outline>
+            </outline>
+            <outline text="Pushups: 31 #tinygains" />
+            <outline text="Widowmakers (30 lbs x 20 reps): 3" />
+            <outline text="Standing Pomodoros: 1" />
+            <outline text="Walks: 2" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" >
+            <outline _complete="true" text="Give Christina's address to Mom" />
+            <outline text="Send Lindsay RMarkdown/Shiny stuff!" /></outline>
+        </outline>
+        <outline text="Tuesday 12.15" >
+          <outline text="&lt;b&gt;POMODOROS [9]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: 4" />
+              <outline text="Growth: 2" />
+              <outline text="Health: 0" />
+              <outline text="Misc: 3" /></outline>
+            <outline text="[1] " >
+              <outline text="W: @Mixed Getting set up for the day" /></outline>
+            <outline text="[2] " >
+              <outline text="W: [56] @CAAutoSequential2016 Run 100k test" /></outline>
+            <outline text="[3]" >
+              <outline text="W: [57] @CAAutoSequential2016 Run 100k test" /></outline>
+            <outline text="[4] " >
+              <outline text="W: [58] @CAAutoSequential2016 Run 100k test" /></outline>
+            <outline text="[5] " >
+              <outline text="M: Researching Joshua Tree trip" /></outline>
+            <outline text="[6] " >
+              <outline text="M: Researching Joshua Tree trip" /></outline>
+            <outline text="[7] " >
+              <outline text="M: Researching Joshua Tree trip" /></outline>
+            <outline text="[8]" >
+              <outline text="G: Listening to The Tim Ferriss Show podcast" /></outline>
+            <outline text="[9]" >
+              <outline text="G: Reading the Four Hour Body" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS [1]&lt;/b&gt;" >
+            <outline text="Peer: 1" />
+            <outline text="Manager: 0" />
+            <outline text="Self: 0" />
+            <outline text="Other: 0" /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [2]" />
+            <outline _complete="true" text="Tiny Gains [28]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal []" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Meal Log #4HB " >
+              <outline text="Breakfast: A" >
+                <outline text="Two Eggs" />
+                <outline text="Smoked salmon" />
+                <outline text="Water" />
+                <outline text="Coffee" /></outline>
+              <outline text="Lunch: A" >
+                <outline text="Turkey Chile" >
+                  <outline text="Turkey" />
+                  <outline text="Tomatoes" />
+                  <outline text="Corn" />
+                  <outline text="Peppers" />
+                  <outline text="Onions" /></outline>
+                <outline text="Water" /></outline>
+              <outline text="Dinner: A" >
+                <outline text="Turkey Chile" >
+                  <outline text="Turkey" />
+                  <outline text="Tomatoes" />
+                  <outline text="Corn" />
+                  <outline text="Peppers" />
+                  <outline text="Onions" /></outline>
+                <outline text="Water" />
+                <outline text="2 Glasses Malbec" /></outline>
+              <outline text="Snack: B" >
+                <outline text="12 almonds" /></outline>
+            </outline>
+            <outline text="Pushups: 31 #tinygains" />
+            <outline text="Bicep Curls (30 lbs x 20 reps): 4" />
+            <outline text="Standing Pomodoros: 2" />
+            <outline text="Air Squats (40 reps): 2" />
+            <outline text="Wall Press (30 reps): 2" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" >
+            <outline _complete="true" text="Send RMarkdown stuff to Lindsay" />
+            <outline _complete="true" text="Get work done on car" /></outline>
+        </outline>
+        <outline text="Wednesday 12.16" >
+          <outline text="&lt;b&gt;POMODOROS [13]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: 9" />
+              <outline text="Growth: 2" />
+              <outline text="Health: 2" />
+              <outline text="Misc: 0" /></outline>
+            <outline text="[1] " >
+              <outline text="W: @Mixed Getting set up for the day; RE Stuff" /></outline>
+            <outline text="[2] " >
+              <outline text="W: [59] @CAAutoSequential2016 Run 100k test" /></outline>
+            <outline text="[3] " >
+              <outline text="W: [60] @CAAutoSequential2016 Run 100k test" /></outline>
+            <outline text="[4] " >
+              <outline text="W: [61] @CAAutoSequential2016 Run 100k test" /></outline>
+            <outline text="[5] " >
+              <outline text="H: Walk" /></outline>
+            <outline text="[6] " >
+              <outline text="W: [62] @CAAutoSequential2016 Run 100k test; Incorporate teenSMART" /></outline>
+            <outline text="[7]" >
+              <outline text="G: Listening to The Tim Ferriss Show podcast" /></outline>
+            <outline text="[8]" >
+              <outline text="H: Walk" /></outline>
+            <outline text="[9]" >
+              <outline text="G: Listening to The Tim Ferriss Show podcast" /></outline>
+            <outline text="[10] " >
+              <outline text="W: [63] @CAAutoSequential2016 Incorporate teenSMART" /></outline>
+            <outline text="[11] " >
+              <outline text="W: [64] @CAAutoSequential2016 Organize questions for meeting with Megan on Friday" /></outline>
+            <outline text="[12] " >
+              <outline text="W: [65] @CAAutoSequential2016 Investigate EGR" /></outline>
+            <outline text="[13] " >
+              <outline text="W: [66] @CAAutoSequential2016 Investigate EGR" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS [5]&lt;/b&gt;" >
+            <outline text="Peer: 4" />
+            <outline text="Manager: 1" />
+            <outline text="Self: 0" />
+            <outline text="Other: 0" /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [3]" />
+            <outline _complete="true" text="Tiny Gains [29]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal []" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Meal Log #4HB " >
+              <outline text="Breakfast: A" >
+                <outline text="500ml ice water" />
+                <outline text="3 Organic Brown Eggs (~18g protein)" />
+                <outline text="1/2 Can Lentils (~12g protein)" /></outline>
+              <outline text="Lunch: A" >
+                <outline text="La Luz Steak Salad" >
+                  <outline text="Tiny bit of cheese (forgot to ask for it w/o cheese, but was able to scrape most of it off)" />
+                  <outline text="Steak" />
+                  <outline text="Tomatoes/Salsa" />
+                  <outline text="Romaine lettuce" />
+                  <outline text="Black Beans" />
+                  <outline text="Guacamole" /></outline>
+                <outline text="Water" /></outline>
+              <outline text="Dinner: C" >
+                <outline text="Black Bean Tacos" >
+                  <outline text="Corn Taco Shells" />
+                  <outline text="Black Beans" />
+                  <outline text="Sweet Potatoes" />
+                  <outline text="Peppers" />
+                  <outline text="Salsa" /></outline>
+                <outline text="Carrots" />
+                <outline text="A little bit of Hummus" />
+                <outline text="Water" />
+                <outline text="Wine (Malbec x1 and Cabernet Sauvignon x1)" /></outline>
+              <outline text="Snack: A" >
+                <outline text="Smoked Salmon" /></outline>
+            </outline>
+            <outline text="Pushups: 31 #tinygains" />
+            <outline text="Pullups (4 reps): 4" />
+            <outline text="Standing Pomodoros: 3" />
+            <outline text="Walks: 2" />
+            <outline text="Air Squats (40 reps): 1" />
+            <outline text="Wall Presses (30 reps): 1" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" >
+            <outline text="Idea for training: Show speed difference of a join on a massive table vs. splitting a table into just the columns needed for the join, performing the join, and then combining with a column bind. " />
+            <outline text="Career Development" >
+              <outline text="Reasons to Look" >
+                <outline text="Not taking exams anymore -&amp;gt; much less opportunity for financial advancement " />
+                <outline text="Delayed promotion -&amp;gt; not being valued/compensated appropriately as of today " />
+                <outline text="Future delayed/nonexistent promotions? This current situation. Raises a question of whether I'll be slow to receive promotions in the future/if I'll have to fight for them because I'm not in a traditional track" />
+                <outline text="Lack of development opportunities down the road? Again, if roles needed to be created for me, and they'll be created later than I'd like, does it make sense for me to be here? Feels like I'm fighting to carve out a path in an organization that maybe doesn't value that path the same way it's valued by me and at other companies. " />
+                <outline text="My development goals are in technical fields. There currently is no compensation for advancement in these areas. " />
+                <outline text="Data Science is the hottest field in the world right now. Odds are quite good that I can find a strong position at another company that more aligns with my career goals/development desires and compensates me more appropriately. " /></outline>
+            </outline>
+          </outline>
+        </outline>
+        <outline text="Thursday 12.17" >
+          <outline text="&lt;b&gt;POMODOROS [4]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: 2" />
+              <outline text="Growth: 1" />
+              <outline text="Health: 1" />
+              <outline text="Misc: 0" /></outline>
+            <outline text="[1] " >
+              <outline text="W: @Mixed Getting set up for the day" /></outline>
+            <outline text="[2] " >
+              <outline text="W: [67] @CAAutoSequential2016 Run big data step after teenSMART fix" /></outline>
+            <outline text="[3]" >
+              <outline text="G: Listening to The Tim Ferriss Show podcast" /></outline>
+            <outline text="[4] " >
+              <outline text="H: Walk" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS [6]&lt;/b&gt;" >
+            <outline text="Peer: 4" />
+            <outline text="Manager: 2" />
+            <outline text="Self: 0" />
+            <outline text="Other: 0" /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [4]" />
+            <outline _complete="true" text="Tiny Gains [30]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal []" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Meal Log #4HB " >
+              <outline text="Breakfast: A" >
+                <outline text="500ml ice water" />
+                <outline text="3 Organic Brown Eggs (~18g protein)" />
+                <outline text="1/2 Can Lentils (~12g protein)" /></outline>
+              <outline text="Lunch: A" >
+                <outline text="Water" />
+                <outline text="Spinach" />
+                <outline text="Smoked Salmon" />
+                <outline text="1/2 Can Beans" /></outline>
+              <outline text="Dinner: " >
+                <outline text="Steak" />
+                <outline text="Beef Bowl w/o Rice (Beef, Onions)" />
+                <outline text="Salad (Spinach, Lettuce, Carrots, Onions, Olive Oil)" />
+                <outline text="Water" />
+                <outline text="Wine (Cabernet Sauvignon x1)" /></outline>
+              <outline text="Snack: " >
+                <outline text="Smoked Salmon" /></outline>
+            </outline>
+            <outline text="Pushups: 31 #tinygains" />
+            <outline text="Kettlebell Swings (30 lbs x 40 reps): 1" />
+            <outline text="Air Squats (40 reps): 2" />
+            <outline text="Wall Presses (30 reps): 1" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" /></outline>
+        <outline text="Friday 12.18 " >
+          <outline text="&lt;b&gt;POMODOROS []&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: " />
+              <outline text="Growth: " />
+              <outline text="Health: " />
+              <outline text="Misc: " /></outline>
+            <outline text="[1] " >
+              <outline text="W: Getting set up for the day" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS []&lt;/b&gt;" >
+            <outline text="Peer: " />
+            <outline text="Manager: " />
+            <outline text="Self: " />
+            <outline text="Other: " /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [5]" />
+            <outline _complete="true" text="Tiny Gains [31]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal []" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Meal Log #4HB " >
+              <outline text="Breakfast: " />
+              <outline text="Lunch: " />
+              <outline text="Dinner: " />
+              <outline text="Snack: " /></outline>
+            <outline text="Pushups: 31 #tinygains" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" >
+            <outline text="Vacation (Joshua Tree)" /></outline>
+        </outline>
+        <outline text="Saturday 12.19" >
+          <outline text="&lt;b&gt;POMODOROS []&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: " />
+              <outline text="Growth: " />
+              <outline text="Health: " />
+              <outline text="Misc: " /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS []&lt;/b&gt;" >
+            <outline text="Peer: " />
+            <outline text="Manager: " />
+            <outline text="Self: " />
+            <outline text="Other: " /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline text="Make bed" />
+            <outline text="Meditate []" />
+            <outline _complete="true" text="Tiny Gains [32]" />
+            <outline text="Make coffee" />
+            <outline text="Journal []" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Meal Log #4HB " >
+              <outline text="Breakfast: " />
+              <outline text="Lunch: " />
+              <outline text="Dinner: " />
+              <outline text="Snack: " /></outline>
+            <outline text="Pushups: 31 #tinygains" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" >
+            <outline text="Vacation (Joshua Tree)" /></outline>
+        </outline>
+        <outline text="Sunday 12.20" >
+          <outline text="&lt;b&gt;POMODOROS []&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: " />
+              <outline text="Growth: " />
+              <outline text="Health: " />
+              <outline text="Misc: " /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS []&lt;/b&gt;" >
+            <outline text="Peer: " />
+            <outline text="Manager: " />
+            <outline text="Self: " />
+            <outline text="Other: " /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline text="Make bed" />
+            <outline text="Meditate []" />
+            <outline _complete="true" text="Tiny Gains [33]" />
+            <outline text="Make coffee" />
+            <outline text="Journal []" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Meal Log #4HB " >
+              <outline text="Breakfast: " />
+              <outline text="Lunch: " />
+              <outline text="Dinner: " />
+              <outline text="Snack: " /></outline>
+            <outline text="Pushups: 31 #tinygains" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" >
+            <outline text="Vacation (Joshua Tree)" /></outline>
+        </outline>
+        <outline text="Monday 12.21" >
+          <outline text="&lt;b&gt;POMODOROS []&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: " />
+              <outline text="Growth: " />
+              <outline text="Health: " />
+              <outline text="Misc: " /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS []&lt;/b&gt;" >
+            <outline text="Peer: " />
+            <outline text="Manager: " />
+            <outline text="Self: " />
+            <outline text="Other: " /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline text="Make bed" />
+            <outline text="Meditate []" />
+            <outline _complete="true" text="Tiny Gains [34]" />
+            <outline text="Make coffee" />
+            <outline text="Journal []" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Meal Log #4HB " >
+              <outline text="Breakfast: " />
+              <outline text="Lunch: " />
+              <outline text="Dinner: " />
+              <outline text="Snack: " /></outline>
+            <outline text="Pushups: 32 #tinygains" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" >
+            <outline text="Vacation (Joshua Tree)" /></outline>
+        </outline>
+        <outline text="Tuesday 12.22" >
+          <outline text="&lt;b&gt;POMODOROS [1]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: " />
+              <outline text="Growth: " />
+              <outline text="Health: " />
+              <outline text="Misc: " /></outline>
+            <outline text="[1]" >
+              <outline text="G: Listening to The Tim Ferriss Show podcast" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS []&lt;/b&gt;" >
+            <outline text="Peer: " />
+            <outline text="Manager: " />
+            <outline text="Self: " />
+            <outline text="Other: " /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [1]" />
+            <outline _complete="true" text="Tiny Gains [35]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal []" /></outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Meal Log #4HB " >
+              <outline text="Breakfast: " />
+              <outline text="Lunch: " />
+              <outline text="Dinner: " />
+              <outline text="Snack: " /></outline>
+            <outline text="Pushups: 32 #tinygains" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" >
+            <outline text="Be playful!" />
+            <outline text="Get closer" >
+              <outline text="Prejudice" />
+              <outline text="Procrastination " >
+                <outline text="Almost without fail my cause for procrastination is some unknown that's causing me psychic angst. " />
+                <outline text="Initial reaction is to put my head in the sand and pretend it doesn't exist. " />
+                <outline text="Often times, upon closer inspection, that unknown turns into known " /></outline>
+              <outline text="Boredom" /></outline>
+          </outline>
+        </outline>
+        <outline text="Wednesday 12.23" >
+          <outline text="&lt;b&gt;POMODOROS [12]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: 8" />
+              <outline text="Growth: 3" />
+              <outline text="Health: 1" />
+              <outline text="Misc: 0" /></outline>
+            <outline text="[1] " >
+              <outline text="W: @Mixed Getting set up for the day" /></outline>
+            <outline text="[2] " >
+              <outline text="W: @Mixed Emails; Helping Noam" /></outline>
+            <outline text="[3] " >
+              <outline text="W: @CAHOFiling2015 Thinking through the modeled WF results" /></outline>
+            <outline text="[4] " >
+              <outline text="W: @CAHOFiling2015 Checking Elizabeth's CDI cat reconciliation" /></outline>
+            <outline text="[5]" >
+              <outline text="G: Listening to Bold" /></outline>
+            <outline text="[6]" >
+              <outline text="H: Walk" /></outline>
+            <outline text="[7] " >
+              <outline text="G: Listening to The Black Swan" /></outline>
+            <outline text="[8] " >
+              <outline text="W: @Mixed CA HO Filing: Checking Elizabeth's CDI cat reconciliation; Helping Yuwen" /></outline>
+            <outline text="[9] " >
+              <outline text="W: @CAHOFiling2015 Checking Elizabeth's CDI cat reconciliation" /></outline>
+            <outline text="[10] " >
+              <outline text="W: @CAHOFiling2015 Investigate additive method for non-cat" /></outline>
+            <outline text="[11] " >
+              <outline text="W: @CAHOFiling2015 Investigate additive method for non-cat" /></outline>
+            <outline text="[12] " >
+              <outline text="G: @DataCampIntroToR Final lessons #R" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS [3]&lt;/b&gt;" >
+            <outline text="Peer: 1" />
+            <outline text="Manager: 0" />
+            <outline text="Self: 2" />
+            <outline text="Other: 0" /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [2]" />
+            <outline _complete="true" text="Tiny Gains [36]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline _complete="true" text="Journal [1]" >
+              <outline text="&lt;b&gt;## Five Minute Journal #FiveMinuteJournal&lt;/b&gt;" >
+                <outline text="&lt;b&gt;**I am grateful for...**  &lt;/b&gt;" >
+                  <outline text="1. Having Keegan as a friend" />
+                  <outline text="2. The feeling of warmth and excitement you get when you complete something that's been nagging you for a while." />
+                  <outline text="3. That I have the time to journal." _note=" " /></outline>
+                <outline text="&lt;b&gt;**What would make today great?**  &lt;/b&gt;" >
+                  <outline text="1. I stick to slow-carb food after my cheat day yesterday." />
+                  <outline text="2. I do my kettlebell swings." />
+                  <outline text="3. I enjoy the day regardless of my exam result." _note=" " /></outline>
+                <outline text="&lt;b&gt;**Daily affirmations:**  &lt;/b&gt;" >
+                  <outline text="I am the architect of my life. I build its foundation and choose its contents." _note=" " /></outline>
+                <outline text="&lt;b&gt;**Three amazing things that happened today:**  &lt;/b&gt;" >
+                  <outline text="1. I passed my exam!" />
+                  <outline text="2. I ate healthy." />
+                  <outline text="3. I had time to relax after working." _note=" " /></outline>
+                <outline text="&lt;b&gt;**How could I have made today better?**  &lt;/b&gt;" >
+                  <outline text="I could have remembered to send 12 days of Christmas emails to Christina..." /></outline>
+              </outline>
+              <outline text="&lt;b&gt;## Morning Pages #MorningPages&lt;/b&gt;" >
+                <outline text="Journaling again for the first time in a while! I'm really going to try to get back on this journaling train in 2016, but I figured I might as well start now and get some momentum going before the new year..." _note=" " />
+                <outline text="I've noticed that a big reason I don't journal in mornings is that I feel rushed. Ideally I wouldn't feel rushed to get to work (workload issues anyone?), but for now I'm going to try to get up earlier to compensate for that and slowly try to reduce the urge/need to work long hours via other means. I'm going to try to start setting my alarm for 4am. Even if I snooze 10 times and end up getting up an hour or two later I'll keep my alarm set for 4am. This will hurt me from a sleep perspective on some nights, but my hope is that it'll eventually train me to go to bed at a decent hour (pre 9?)" _note=" " />
+                <outline text="In other news, exam results come out today. I've been doing my best to forget about it (including going to Joshua Tree this past weekend with Keegan to get away from it all), but people keep bringing it up. I find myself being frustrated with these people even though i know it's just coming from a desire for me to do well. I need to do a better job of keeping that in mind going forward. Oh well. In a desire to go back to forgetting about it, I'm going to stop talking about it... We'll see how well this meditation practice of mine will work while I'm anxiously awaiting results today... ;)" /></outline>
+              <outline text="Book Quote" >
+                <outline text="&lt;u&gt;Peace is Every Step&lt;/u&gt;: https://workflowy.com/#/0b7c02407aa9" />
+                <outline text="&amp;gt; &quot;Breathe! You are alive!&quot; -- Thich Nhat Hanh, p. 4" /></outline>
+            </outline>
+          </outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Meal Log #4HB " >
+              <outline text="Breakfast: A" >
+                <outline text="1000 ml ice water" />
+                <outline text="2 scoops BioTrust Protein (24g protein)" />
+                <outline text="3 eggs (~18g protein)" />
+                <outline text="1/3 cup spinach" /></outline>
+              <outline text="Lunch: A" >
+                <outline text="~2 cups spinach" />
+                <outline text="Sardines (25g protein)" />
+                <outline text="1/2 can black beans (12g protein)" /></outline>
+              <outline text="Dinner: B" >
+                <outline text="Spaghetti squash" >
+                  <outline text="Tomatoes" />
+                  <outline text="Pepperoni" />
+                  <outline text="Olives" /></outline>
+                <outline text="Salad" >
+                  <outline text="Lettuce" />
+                  <outline text="Carrots" />
+                  <outline text="Tomatoes" /></outline>
+                <outline text="Water" />
+                <outline text="Wine (Cabernet Sauvignon x2)" /></outline>
+              <outline text="Snack: NA" /></outline>
+            <outline text="Pushups: 32 #tinygains" />
+            <outline text="Kettlebell Swings (30 lbs x 40 reps): 1" />
+            <outline text="Myotatic Crunch: 3 reps" />
+            <outline text="Cat Vomit: 8 reps" />
+            <outline text="Bicep Curls (30 lbs x 6 reps): 4" />
+            <outline text="Standing Pomodoros: 1" />
+            <outline text="Walks: 1" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" /></outline>
+        <outline text="Thursday 12.24" >
+          <outline text="&lt;b&gt;POMODOROS [3]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: 0" />
+              <outline text="Growth: 2" />
+              <outline text="Health: 0" />
+              <outline text="Misc: 1" /></outline>
+            <outline text="[1] " >
+              <outline text="M: Wrapping presents" /></outline>
+            <outline text="[2] " >
+              <outline text="G: Photography Editing" /></outline>
+            <outline text="[3] " >
+              <outline text="G: Photography Editing" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS []&lt;/b&gt;" >
+            <outline text="Peer: " />
+            <outline text="Manager: " />
+            <outline text="Self: " />
+            <outline text="Other: " /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [3]" />
+            <outline _complete="true" text="Tiny Gains [37]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal []" >
+              <outline text="&lt;b&gt;## Five Minute Journal #FiveMinuteJournal&lt;/b&gt;" >
+                <outline text="&lt;b&gt;**I am grateful for...**  &lt;/b&gt;" >
+                  <outline text="1. Yuwen and his willingness to help me." />
+                  <outline text="2. Being done with exams!" />
+                  <outline text="3. The people I work with." _note=" " /></outline>
+                <outline text="&lt;b&gt;**What would make today great?**  &lt;/b&gt;" >
+                  <outline text="1. If I wrapped all my presents" />
+                  <outline text="2. If I sent emails to Christina for the 12 days of Christmas." />
+                  <outline text="3. If I figured out how to get into my computer..." _note=" " /></outline>
+                <outline text="&lt;b&gt;**Daily affirmations:**  &lt;/b&gt;" >
+                  <outline text="I am the architect of my life; I build its foundation and choose its contents." _note=" " /></outline>
+                <outline text="&lt;b&gt;**Three amazing things that happened today:**  &lt;/b&gt;" >
+                  <outline text="1. " />
+                  <outline text="2. " />
+                  <outline text="3. " _note=" " /></outline>
+                <outline text="&lt;b&gt;**How could I have made today better?**  &lt;/b&gt;" >
+                  <outline text="" /></outline>
+              </outline>
+              <outline text="&lt;b&gt;## Morning Pages #MorningPages&lt;/b&gt;" >
+                <outline text="Need to come up with some 12 Days of Christmas emails for Christina, so I'm going to draft them here while I'm waiting for ATSC to call me back (issues with logging into my computer...)" _note=" " />
+                <outline text="On the Fifth day of Christmas, my true love gave to me... Five Golden Grills (fur future hip hop career, of course) (http://i.ebayimg.com/images/a/(KGrHqR,!lQE3HG8S)H4BOCWnOHHy!~~/s-l300.jpg)" _note=" " />
+                <outline text="On the Sixth day of Christmas, my true love gave to me... Six" _note=" " />
+                <outline text="On the Seventh day of Christmas, my true love gave to me... Seven Seals a Swimming" /></outline>
+              <outline text="Book Quote" >
+                <outline text="&lt;u&gt;Peace is Every Step&lt;/u&gt;: https://workflowy.com/#/0b7c02407aa9" />
+                <outline text="&amp;gt; &quot;&quot; -- Thich Nhat Hanh, p. " /></outline>
+            </outline>
+          </outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Meal Log #4HB " >
+              <outline text="Breakfast: " />
+              <outline text="Lunch: " />
+              <outline text="Dinner: " />
+              <outline text="Snack: " /></outline>
+            <outline text="Pushups: 32 #tinygains" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" /></outline>
+        <outline text="Friday 12.25" >
+          <outline text="&lt;b&gt;POMODOROS []&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: " />
+              <outline text="Growth: " />
+              <outline text="Health: " />
+              <outline text="Misc: " /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS []&lt;/b&gt;" >
+            <outline text="Peer: " />
+            <outline text="Manager: " />
+            <outline text="Self: " />
+            <outline text="Other: " /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [4]" />
+            <outline _complete="true" text="Tiny Gains [38]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal []" >
+              <outline text="&lt;b&gt;## Five Minute Journal #FiveMinuteJournal&lt;/b&gt;" >
+                <outline text="&lt;b&gt;**I am grateful for...**  &lt;/b&gt;" >
+                  <outline text="1. " />
+                  <outline text="2. " />
+                  <outline text="3. " _note=" " /></outline>
+                <outline text="&lt;b&gt;**What would make today great?**  &lt;/b&gt;" >
+                  <outline text="1. " />
+                  <outline text="2. " />
+                  <outline text="3. " _note=" " /></outline>
+                <outline text="&lt;b&gt;**Daily affirmations:**  &lt;/b&gt;" >
+                  <outline text="" _note=" " /></outline>
+                <outline text="&lt;b&gt;**Three amazing things that happened today:**  &lt;/b&gt;" >
+                  <outline text="1. " />
+                  <outline text="2. " />
+                  <outline text="3. " _note=" " /></outline>
+                <outline text="&lt;b&gt;**How could I have made today better?**  &lt;/b&gt;" >
+                  <outline text="" /></outline>
+              </outline>
+              <outline text="&lt;b&gt;## Morning Pages #MorningPages&lt;/b&gt;" />
+              <outline text="Book Quote" >
+                <outline text="&lt;u&gt;Peace is Every Step&lt;/u&gt;: https://workflowy.com/#/0b7c02407aa9" />
+                <outline text="&amp;gt; &quot;&quot; -- Thich Nhat Hanh, p. " /></outline>
+            </outline>
+          </outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Meal Log #4HB " >
+              <outline text="Breakfast: " />
+              <outline text="Lunch: " />
+              <outline text="Dinner: " />
+              <outline text="Snack: " /></outline>
+            <outline text="Pushups: 32 #tinygains" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" >
+            <outline text="Card for Erin and Spencer" >
+              <outline text="Happy Festivus!" />
+              <outline text="Here's to a night out on the town...introvert style! :)" /></outline>
+          </outline>
+        </outline>
+        <outline text="Saturday 12.26" >
+          <outline text="&lt;b&gt;POMODOROS [1]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: 0" />
+              <outline text="Growth: 0" />
+              <outline text="Health: 0" />
+              <outline text="Misc: 1" /></outline>
+            <outline text="[1] " >
+              <outline text="M: Writing photo of the week" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS []&lt;/b&gt;" >
+            <outline text="Peer: " />
+            <outline text="Manager: " />
+            <outline text="Self: " />
+            <outline text="Other: " /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline text="Meditate []" />
+            <outline _complete="true" text="Tiny Gains [39]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal []" >
+              <outline text="&lt;b&gt;## Five Minute Journal #FiveMinuteJournal&lt;/b&gt;" >
+                <outline text="&lt;b&gt;**I am grateful for...**  &lt;/b&gt;" >
+                  <outline text="1. " />
+                  <outline text="2. " />
+                  <outline text="3. " _note=" " /></outline>
+                <outline text="&lt;b&gt;**What would make today great?**  &lt;/b&gt;" >
+                  <outline text="1. " />
+                  <outline text="2. " />
+                  <outline text="3. " _note=" " /></outline>
+                <outline text="&lt;b&gt;**Daily affirmations:**  &lt;/b&gt;" >
+                  <outline text="" _note=" " /></outline>
+                <outline text="&lt;b&gt;**Three amazing things that happened today:**  &lt;/b&gt;" >
+                  <outline text="1. " />
+                  <outline text="2. " />
+                  <outline text="3. " _note=" " /></outline>
+                <outline text="&lt;b&gt;**How could I have made today better?**  &lt;/b&gt;" >
+                  <outline text="" /></outline>
+              </outline>
+              <outline text="&lt;b&gt;## Morning Pages #MorningPages&lt;/b&gt;" />
+              <outline text="Book Quote" >
+                <outline text="&lt;u&gt;Peace is Every Step&lt;/u&gt;: https://workflowy.com/#/0b7c02407aa9" />
+                <outline text="&amp;gt; &quot;&quot; -- Thich Nhat Hanh, p. " /></outline>
+            </outline>
+          </outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Meal Log #4HB " >
+              <outline text="Breakfast: A" >
+                <outline text="500ml Water" />
+                <outline text="Three hardboiled eggs (~18g protein)" />
+                <outline text="Protein shake (~24g protein)" />
+                <outline text="Coffee" /></outline>
+              <outline text="Lunch: A" >
+                <outline text="La Luz Chicken Salad" >
+                  <outline text="Lettuce" />
+                  <outline text="Black Beans" />
+                  <outline text="Chicken" />
+                  <outline text="Tomatoes" />
+                  <outline text="Guacamole" /></outline>
+                <outline text="Water" /></outline>
+              <outline text="Dinner: A" >
+                <outline text="Qdoba Bowl" >
+                  <outline text="Chicken" />
+                  <outline text="Black Beans" />
+                  <outline text="Fajitas" />
+                  <outline text="Pico" />
+                  <outline text="Corn" />
+                  <outline text="Guac" />
+                  <outline text="Lettuce" /></outline>
+                <outline text="Water" /></outline>
+              <outline text="Snack: B" >
+                <outline text="Pulled pork and sauce" /></outline>
+            </outline>
+            <outline text="Pushups: 32 #tinygains" />
+            <outline text="Cold Exposure: Ice pack on upper neck for 45 minutes at night" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" >
+            <outline text="Dinner" >
+              <outline text="Bowl with chicken, black beans, pico, cheese" />
+              <outline text="Chips and guacamole " /></outline>
+          </outline>
+        </outline>
+        <outline text="Sunday 12.27" >
+          <outline text="&lt;b&gt;POMODOROS []&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: " />
+              <outline text="Growth: " />
+              <outline text="Health: " />
+              <outline text="Misc: " /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS []&lt;/b&gt;" >
+            <outline text="Peer: " />
+            <outline text="Manager: " />
+            <outline text="Self: " />
+            <outline text="Other: " /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline text="Meditate []" />
+            <outline _complete="true" text="Tiny Gains [40]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal []" >
+              <outline text="&lt;b&gt;## Five Minute Journal #FiveMinuteJournal&lt;/b&gt;" >
+                <outline text="&lt;b&gt;**I am grateful for...**  &lt;/b&gt;" >
+                  <outline text="1. " />
+                  <outline text="2. " />
+                  <outline text="3. " _note=" " /></outline>
+                <outline text="&lt;b&gt;**What would make today great?**  &lt;/b&gt;" >
+                  <outline text="1. " />
+                  <outline text="2. " />
+                  <outline text="3. " _note=" " /></outline>
+                <outline text="&lt;b&gt;**Daily affirmations:**  &lt;/b&gt;" >
+                  <outline text="" _note=" " /></outline>
+                <outline text="&lt;b&gt;**Three amazing things that happened today:**  &lt;/b&gt;" >
+                  <outline text="1. " />
+                  <outline text="2. " />
+                  <outline text="3. " _note=" " /></outline>
+                <outline text="&lt;b&gt;**How could I have made today better?**  &lt;/b&gt;" >
+                  <outline text="" /></outline>
+              </outline>
+              <outline text="&lt;b&gt;## Morning Pages #MorningPages&lt;/b&gt;" />
+              <outline text="Book Quote" >
+                <outline text="&lt;u&gt;Peace is Every Step&lt;/u&gt;: https://workflowy.com/#/0b7c02407aa9" />
+                <outline text="&amp;gt; &quot;&quot; -- Thich Nhat Hanh, p. " /></outline>
+            </outline>
+          </outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Meal Log #4HB " >
+              <outline text="Breakfast: A" >
+                <outline text="500ml Water" />
+                <outline text="Protein shake (~24g protein)" />
+                <outline text="Three hardboiled eggs (~18g protein)" />
+                <outline text="Coffee" /></outline>
+              <outline text="Lunch: " />
+              <outline text="Dinner: " />
+              <outline text="Snack: " /></outline>
+            <outline text="Weight: 142 lbs" />
+            <outline text="Pushups: 32 #tinygains" />
+            <outline text="Myotatic Crunch: 6" />
+            <outline text="Cat Vomit: 10" />
+            <outline text="Air Squats: 40 reps" />
+            <outline text="Wall Presses: 30 reps" />
+            <outline text="Cold Exposure: Ice pack on upper neck for 45 minutes at night" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" >
+            <outline text="Order thank you cards from artifact uprising" />
+            <outline text="Camera: 109" />
+            <outline text="Case: 8.79" />
+            <outline text="Card: 18.99" />
+            <outline text="Headlamp: 37" />
+            <outline text="Books" >
+              <outline text="9.49*2" />
+              <outline text="9.88" />
+              <outline text="14.81" /></outline>
+          </outline>
+        </outline>
+        <outline text="Monday 12.28" >
+          <outline text="&lt;b&gt;POMODOROS [11]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: 0" />
+              <outline text="Growth: 9" />
+              <outline text="Health: 2" />
+              <outline text="Misc: 0" /></outline>
+            <outline text="[1] " >
+              <outline text="G: @8760Hours-EOY2015 Yearly Review: 8,760 Hours: https://workflowy.com/#/727261c8d36c" /></outline>
+            <outline text="[2] " >
+              <outline text="G: @8760Hours-EOY2015 Yearly Review: 8,760 Hours: https://workflowy.com/#/727261c8d36c" /></outline>
+            <outline text="[3]" >
+              <outline text="G: Listening to Serial" /></outline>
+            <outline text="[4] " >
+              <outline text="H: Walk" /></outline>
+            <outline text="[5] " >
+              <outline text="G: @8760Hours-EOY2015 Yearly Review: 8,760 Hours: https://workflowy.com/#/727261c8d36c" /></outline>
+            <outline text="[6] " >
+              <outline text="G: @8760Hours-EOY2015 Yearly Review: 8,760 Hours: https://workflowy.com/#/727261c8d36c" /></outline>
+            <outline text="[7]" >
+              <outline text="G: Listening to Serial" /></outline>
+            <outline text="[8]" >
+              <outline text="H: Walk" /></outline>
+            <outline text="[9] " >
+              <outline text="G: @8760Hours-EOY2015 Yearly Review: 8,760 Hours: https://workflowy.com/#/727261c8d36c" /></outline>
+            <outline text="[10] " >
+              <outline text="G: @8760Hours-EOY2015 Yearly Review: 8,760 Hours: https://workflowy.com/#/727261c8d36c" /></outline>
+            <outline text="[11] " >
+              <outline text="G: @8760Hours-EOY2015 Yearly Review: 8,760 Hours: https://workflowy.com/#/727261c8d36c" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS [2]&lt;/b&gt;" >
+            <outline text="Peer: 0" />
+            <outline text="Manager: 0" />
+            <outline text="Self: 1" />
+            <outline text="Other: 1" /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [1]" />
+            <outline _complete="true" text="Tiny Gains [41]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal []" >
+              <outline text="&lt;b&gt;## Five Minute Journal #FiveMinuteJournal&lt;/b&gt;" >
+                <outline text="&lt;b&gt;**I am grateful for...**  &lt;/b&gt;" >
+                  <outline text="1. " />
+                  <outline text="2. " />
+                  <outline text="3. " _note=" " /></outline>
+                <outline text="&lt;b&gt;**What would make today great?**  &lt;/b&gt;" >
+                  <outline text="1. " />
+                  <outline text="2. " />
+                  <outline text="3. " _note=" " /></outline>
+                <outline text="&lt;b&gt;**Daily affirmations:**  &lt;/b&gt;" >
+                  <outline text="" _note=" " /></outline>
+                <outline text="&lt;b&gt;**Three amazing things that happened today:**  &lt;/b&gt;" >
+                  <outline text="1. " />
+                  <outline text="2. " />
+                  <outline text="3. " _note=" " /></outline>
+                <outline text="&lt;b&gt;**How could I have made today better?**  &lt;/b&gt;" >
+                  <outline text="" /></outline>
+              </outline>
+              <outline text="&lt;b&gt;## Morning Pages #MorningPages&lt;/b&gt;" />
+              <outline text="Book Quote" >
+                <outline text="&lt;u&gt;Peace is Every Step&lt;/u&gt;: https://workflowy.com/#/0b7c02407aa9" />
+                <outline text="&amp;gt; &quot;&quot; -- Thich Nhat Hanh, p. " /></outline>
+            </outline>
+          </outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Meal Log #4HB " >
+              <outline text="Breakfast: " />
+              <outline text="Lunch: " />
+              <outline text="Dinner: " />
+              <outline text="Snack: " /></outline>
+            <outline text="Weight: 142 lbs" />
+            <outline text="Pushups: 33 #tinygains" />
+            <outline text="Walks: 2" />
+            <outline text="Cold Exposure: Ice pack on upper neck for 45 minutes at night" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" >
+            <outline text="Reply to Tim" />
+            <outline text="Camera for Bailey" />
+            <outline text="Photos for Carrie" />
+            <outline text="Photos for Christina?" />
+            <outline text="Fuji armband for no complaining experiment?" />
+            <outline text="Idea: some kind of quantified self app/dashboard?" >
+              <outline text="To turn my journal/things I'm recording into a dashboard/visual tool" />
+              <outline text="Use R or Python for the visualization" /></outline>
+            <outline text="Follow/Track the 2/2/2 date rule when I move to Omaha?" />
+            <outline text="Idea for Christina: use 3-D printers to create Etsy art?" />
+            <outline text="Next year's side projects " >
+              <outline text="Prerequisites (resume builders)" >
+                <outline text="1. Learn github" />
+                <outline text="2. Finish Python course" />
+                <outline text="3. Finish DataCamp courses" /></outline>
+              <outline text="Complete 2-3 projects with open data sources and post to github and my website (RMarkdown and/or shinyapps.io)" >
+                <outline text="Shootings" >
+                  <outline text="Like https://mpiccirilli.github.io/" /></outline>
+                <outline text="Some kind of city data (traffic?)" />
+                <outline text="Basketball analysis/model/shiny app?" /></outline>
+              <outline text="Volunteer at DataKind" />
+              <outline text="Network with DataKind and DSSG?" /></outline>
+          </outline>
+        </outline>
+        <outline text="Tuesday 12.29 " >
+          <outline text="&lt;b&gt;POMODOROS [1]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: 0" />
+              <outline text="Growth: 1" />
+              <outline text="Health: 0" />
+              <outline text="Misc: 0" /></outline>
+            <outline text="[1] " >
+              <outline text="G: @8760Hours-EOY2015 Yearly Review: 8,760 Hours: https://workflowy.com/#/727261c8d36c" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS []&lt;/b&gt;" >
+            <outline text="Peer: " />
+            <outline text="Manager: " />
+            <outline text="Self: " />
+            <outline text="Other: " /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [2]" />
+            <outline _complete="true" text="Tiny Gains [42]" />
+            <outline _complete="true" text="Make coffee" />
+            <outline text="Journal []" >
+              <outline text="&lt;b&gt;## Five Minute Journal #FiveMinuteJournal&lt;/b&gt;" >
+                <outline text="&lt;b&gt;**I am grateful for...**  &lt;/b&gt;" >
+                  <outline text="1. " />
+                  <outline text="2. " />
+                  <outline text="3. " _note=" " /></outline>
+                <outline text="&lt;b&gt;**What would make today great?**  &lt;/b&gt;" >
+                  <outline text="1. " />
+                  <outline text="2. " />
+                  <outline text="3. " _note=" " /></outline>
+                <outline text="&lt;b&gt;**Daily affirmations:**  &lt;/b&gt;" >
+                  <outline text="" _note=" " /></outline>
+                <outline text="&lt;b&gt;**Three amazing things that happened today:**  &lt;/b&gt;" >
+                  <outline text="1. " />
+                  <outline text="2. " />
+                  <outline text="3. " _note=" " /></outline>
+                <outline text="&lt;b&gt;**How could I have made today better?**  &lt;/b&gt;" >
+                  <outline text="" /></outline>
+              </outline>
+              <outline text="&lt;b&gt;## Morning Pages #MorningPages&lt;/b&gt;" />
+              <outline text="Book Quote" >
+                <outline text="&lt;u&gt;Peace is Every Step&lt;/u&gt;: https://workflowy.com/#/0b7c02407aa9" />
+                <outline text="&amp;gt; &quot;&quot; -- Thich Nhat Hanh, p. " /></outline>
+            </outline>
+          </outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Meal Log #4HB " >
+              <outline text="Breakfast: A" >
+                <outline text="500ml ice water" />
+                <outline text="Protein shake (~24g protein)" />
+                <outline text="Coffee" />
+                <outline text="1/2 Can Lentils (~12g protein)" />
+                <outline text="1/4 cup spinach" /></outline>
+              <outline text="Lunch: A" >
+                <outline text="Water" />
+                <outline text="La Luz Steak Salad" >
+                  <outline text="Lettuce" />
+                  <outline text="Tomatoes" />
+                  <outline text="Steak" />
+                  <outline text="Black beans" /></outline>
+              </outline>
+              <outline text="Dinner: " />
+              <outline text="Snack: " /></outline>
+            <outline text="Weight: 142 lbs" />
+            <outline text="Pushups: 33 #tinygains" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" >
+            <outline text="Camera for Bailey" />
+            <outline text="Photos for Carrie" />
+            <outline text="Photos for Christina?" />
+            <outline text="Fuji armband for no complaining experiment?" />
+            <outline text="Pack!" />
+            <outline text="On walk" >
+              <outline text="Chocolate" />
+              <outline text="Cheese" />
+              <outline text="Olive oil?" />
+              <outline text="La Luz" /></outline>
+            <outline text="Drive" >
+              <outline text="Beer" /></outline>
+            <outline text="Wrap presents" /></outline>
+        </outline>
+        <outline text="Wednesday 12.30" >
+          <outline text="&lt;b&gt;POMODOROS [10]&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: 0" />
+              <outline text="Growth: 10" />
+              <outline text="Health: 0" />
+              <outline text="Misc: 0" /></outline>
+            <outline text="[1]" >
+              <outline text="G: Listening to How to Win Friends and Influence People by Dale Carnegie" /></outline>
+            <outline text="[2]" >
+              <outline text="G: Listening to How to Win Friends and Influence People by Dale Carnegie" /></outline>
+            <outline text="[3]" >
+              <outline text="G: Listening to How to Win Friends and Influence People by Dale Carnegie" /></outline>
+            <outline text="[4]" >
+              <outline text="G: Listening to How to Win Friends and Influence People by Dale Carnegie" /></outline>
+            <outline text="[5]" >
+              <outline text="G: Listening to How to Win Friends and Influence People by Dale Carnegie" /></outline>
+            <outline text="[6]" >
+              <outline text="G: Listening to How to Win Friends and Influence People by Dale Carnegie" /></outline>
+            <outline text="[7]" >
+              <outline text="G: Listening to How to Win Friends and Influence People by Dale Carnegie" /></outline>
+            <outline text="[8]" >
+              <outline text="G: Listening to How to Win Friends and Influence People by Dale Carnegie" /></outline>
+            <outline text="[9]" >
+              <outline text="G: Listening to How to Win Friends and Influence People by Dale Carnegie" /></outline>
+            <outline text="[10]" >
+              <outline text="G: Listening to How to Win Friends and Influence People by Dale Carnegie" /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS []&lt;/b&gt;" >
+            <outline text="Peer: " />
+            <outline text="Manager: " />
+            <outline text="Self: " />
+            <outline text="Other: " /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline _complete="true" text="Meditate [3]" />
+            <outline _complete="true" text="Tiny Gains [43]" />
+            <outline text="Make coffee" />
+            <outline text="Journal []" >
+              <outline text="&lt;b&gt;## Five Minute Journal #FiveMinuteJournal&lt;/b&gt;" >
+                <outline text="&lt;b&gt;**I am grateful for...**  &lt;/b&gt;" >
+                  <outline text="1. " />
+                  <outline text="2. " />
+                  <outline text="3. " _note=" " /></outline>
+                <outline text="&lt;b&gt;**What would make today great?**  &lt;/b&gt;" >
+                  <outline text="1. " />
+                  <outline text="2. " />
+                  <outline text="3. " _note=" " /></outline>
+                <outline text="&lt;b&gt;**Daily affirmations:**  &lt;/b&gt;" >
+                  <outline text="" _note=" " /></outline>
+                <outline text="&lt;b&gt;**Three amazing things that happened today:**  &lt;/b&gt;" >
+                  <outline text="1. " />
+                  <outline text="2. " />
+                  <outline text="3. " _note=" " /></outline>
+                <outline text="&lt;b&gt;**How could I have made today better?**  &lt;/b&gt;" >
+                  <outline text="" /></outline>
+              </outline>
+              <outline text="&lt;b&gt;## Morning Pages #MorningPages&lt;/b&gt;" />
+              <outline text="Book Quote" >
+                <outline text="&lt;u&gt;Peace is Every Step&lt;/u&gt;: https://workflowy.com/#/0b7c02407aa9" />
+                <outline text="&amp;gt; &quot;&quot; -- Thich Nhat Hanh, p. " /></outline>
+            </outline>
+          </outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Meal Log #4HB " >
+              <outline text="Breakfast: " />
+              <outline text="Lunch: " />
+              <outline text="Dinner: " />
+              <outline text="Snack: " /></outline>
+            <outline text="Pushups: 33 #tinygains" />
+            <outline text="Yoga with Christina" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" >
+            <outline text="Driving to Omaha!" />
+            <outline text="Started re-listening to How to Win Friends and Influence People by Dale Carnegie on my drive to Omaha: https://workflowy.com/#/1f21ff32241f" /></outline>
+        </outline>
+        <outline text="Thursday 12.31" >
+          <outline text="&lt;b&gt;POMODOROS []&lt;/b&gt;" >
+            <outline text="Total" >
+              <outline text="Work: " />
+              <outline text="Growth: " />
+              <outline text="Health: " />
+              <outline text="Misc: " /></outline>
+          </outline>
+          <outline text="&lt;b&gt;INTERRUPTIONS []&lt;/b&gt;" >
+            <outline text="Peer: " />
+            <outline text="Manager: " />
+            <outline text="Self: " />
+            <outline text="Other: " /></outline>
+          <outline text="&lt;b&gt;My Morning Checklist&lt;/b&gt;" >
+            <outline _complete="true" text="Make bed" />
+            <outline text="Meditate []" />
+            <outline _complete="true" text="Tiny Gains [44]" />
+            <outline text="Make coffee" />
+            <outline text="Journal []" >
+              <outline text="&lt;b&gt;## Five Minute Journal #FiveMinuteJournal&lt;/b&gt;" >
+                <outline text="&lt;b&gt;**I am grateful for...**  &lt;/b&gt;" >
+                  <outline text="1. " />
+                  <outline text="2. " />
+                  <outline text="3. " _note=" " /></outline>
+                <outline text="&lt;b&gt;**What would make today great?**  &lt;/b&gt;" >
+                  <outline text="1. " />
+                  <outline text="2. " />
+                  <outline text="3. " _note=" " /></outline>
+                <outline text="&lt;b&gt;**Daily affirmations:**  &lt;/b&gt;" >
+                  <outline text="" _note=" " /></outline>
+                <outline text="&lt;b&gt;**Three amazing things that happened today:**  &lt;/b&gt;" >
+                  <outline text="1. " />
+                  <outline text="2. " />
+                  <outline text="3. " _note=" " /></outline>
+                <outline text="&lt;b&gt;**How could I have made today better?**  &lt;/b&gt;" >
+                  <outline text="" /></outline>
+              </outline>
+              <outline text="&lt;b&gt;## Morning Pages #MorningPages&lt;/b&gt;" />
+              <outline text="Book Quote" >
+                <outline text="&lt;u&gt;Peace is Every Step&lt;/u&gt;: https://workflowy.com/#/0b7c02407aa9" />
+                <outline text="&amp;gt; &quot;&quot; -- Thich Nhat Hanh, p. " /></outline>
+            </outline>
+          </outline>
+          <outline text="&lt;b&gt;Health&lt;/b&gt;" >
+            <outline text="Meal Log #4HB " >
+              <outline text="Breakfast: " />
+              <outline text="Lunch: " />
+              <outline text="Dinner: " />
+              <outline text="Snack: " /></outline>
+            <outline text="Pushups: 33 #tinygains" /></outline>
+          <outline text="&lt;b&gt;Events&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Tasks&lt;/b&gt;" />
+          <outline text="&lt;b&gt;Notes&lt;/b&gt;" >
+            <outline text="Vacation w/ Christina in Omaha" /></outline>
+        </outline>
+      </outline>
+    </outline>
+  </body>
+</opml>

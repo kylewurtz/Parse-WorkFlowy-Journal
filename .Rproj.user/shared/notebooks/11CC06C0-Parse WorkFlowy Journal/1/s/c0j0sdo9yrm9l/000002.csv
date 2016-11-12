@@ -1,3 +1,5 @@
-"0","for (month in xml_children(year)) {"
-"0","  getMonthResults(month)"
+"0","getYearResults = function(year, year_txt) {"
+"0","  for (month in xml_children(year)) {"
+"0","    getMonthResults(month, year_txt)"
+"0","  }"
 "0","}"

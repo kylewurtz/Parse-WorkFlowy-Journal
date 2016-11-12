@@ -1,6 +1,0 @@
-"0","getMonthResults = function(month) {"
-"0","  for (day in xml_children(month)) {"
-"0","    getDaysPomodoros(day)"
-"0","    getDaysInterruptions(day)"
-"0","  }"
-"0","}"

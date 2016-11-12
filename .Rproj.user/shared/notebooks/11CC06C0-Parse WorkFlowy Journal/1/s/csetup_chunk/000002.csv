@@ -1,0 +1,7 @@
+"0","require(knitr)"
+"2","Loading required package: knitr
+"
+"0","require(rprojroot)"
+"2","Loading required package: rprojroot
+"
+"0","opts_knit$set(root.dir = rprojroot::find_root(""WorkFlowy Journal.Rproj""))"
