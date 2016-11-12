@@ -1,2 +1,4 @@
 # ignore .Rproj.user per Hadley
+.Rhistory
+.RData
 .Rproj.user
