@@ -379,11 +379,13 @@ getYearResults = function(year, year_txt) {
 ### Get Results for 2015
 ```{r get 2015 results}
 getYearResults(year_2015, "2015")
+pomodoros_15 %<>% filter(date != "date")
 ```
 
 ### Get Results for 2016
 ```{r get 2016 results}
 getYearResults(year_2016, "2016")
+pomodoros_16 %<>% filter(date != "date")
 ```
 
 ## Save Output
