@@ -391,9 +391,9 @@ getYearResults(year_2016, "2016")
 
 ## Save Output
 ```{r save csv output files}
-write_csv(days_15, "../Data/Output/days_15.csv")
-write_csv(pomodoros_15, "../Data/Output/pomodoros_15.csv")
-write_csv(days_16, "../Data/Output/days_16.csv")
-write_csv(pomodoros_16, "../Data/Output/pomodoros_16.csv")
+write_csv(days_15, "Data/Output/days_15.csv")
+write_csv(pomodoros_15, "Data/Output/pomodoros_15.csv")
+write_csv(days_16, "Data/Output/days_16.csv")
+write_csv(pomodoros_16, "Data/Output/pomodoros_16.csv")
 ```
 
