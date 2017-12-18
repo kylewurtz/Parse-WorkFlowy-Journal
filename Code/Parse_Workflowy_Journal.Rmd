@@ -146,7 +146,7 @@ pomodoros_16 = tibble(
 
 ### Function to Get Date from Day Node
 ```{r get date from day node}
-getDate = function(day, year) {
+get_date = function(day, year) {
   # get string for date
   date = xml_attr(day, "text")
   
@@ -164,14 +164,14 @@ getDate = function(day, year) {
 ### Function to Get Pomodoros
 ```{r get pomodoros for a day}
 # get total pomodoros from a day
-getTotPom = function(t, n) {
+get_tot_pom = function(t, n) {
   t = xml_child(t, n)
   t %<>% xml_attr("text") %>% str_split(":")
   t = t[[1]][2] %>% str_trim() %>% as.integer()
   return(t)
 }
 
-getDaysPomodoros = function(day, year) {
+get_days_pomodoros = function(day, year) {
   # get temporary days data frame
   days = get(paste0("days_", substr(year, 3, 4)))
   
@@ -179,7 +179,7 @@ getDaysPomodoros = function(day, year) {
   pomodoros = get(paste0("pomodoros_", substr(year, 3, 4)))
   
   # get pretty date
-  date = getDate(day, year)
+  date = get_date(day, year)
   
   # get day of week
   day_of_week = strsplit(xml_attr(day, "text"), " ")[[1]][1]
@@ -189,10 +189,10 @@ getDaysPomodoros = function(day, year) {
   
   # pomodoros total
   poms_tot = xml_child(poms, 1)
-  poms_tot_w = getTotPom(poms_tot, 1) # work
-  poms_tot_g = getTotPom(poms_tot, 2) # growth
-  poms_tot_h = getTotPom(poms_tot, 3) # health
-  poms_tot_m = getTotPom(poms_tot, 4) # misc
+  poms_tot_w = get_tot_pom(poms_tot, 1) # work
+  poms_tot_g = get_tot_pom(poms_tot, 2) # growth
+  poms_tot_h = get_tot_pom(poms_tot, 3) # health
+  poms_tot_m = get_tot_pom(poms_tot, 4) # misc
   
   # if no pomodoros, can skip the rest of this
   if(!(is.na(poms_tot_w) & is.na(poms_tot_g) & is.na(poms_tot_h) & is.na(poms_tot_m))) {
@@ -308,28 +308,28 @@ getDaysPomodoros = function(day, year) {
 ### Function to Get Interruptions
 ```{r get interruptions in a day}
 # get total interruptions for a day
-getTotInter = function(t, n) {
+get_tot_inter = function(t, n) {
   t = xml_child(t, n)
   t %<>% xml_attr("text") %>% str_split(":")
   t = t[[1]][2] %>% str_trim() %>% as.integer()
   return(t)
 }
 
-getDaysInterruptions = function(day, year) {
+get_days_interruptions = function(day, year) {
   # get temporary days data frame
   days = get(paste0("days_", substr(year, 3, 4)))
   
   # get pretty date
-  date = getDate(day, year)
+  date = get_date(day, year)
   
   # get interruptions in a day
   inters = xml_children(day)[2]
   
   ## interruptions total
-  inters_tot_p = getTotInter(inters, 1) # peer
-  inters_tot_m = getTotInter(inters, 2) # manager
-  inters_tot_s = getTotInter(inters, 3) # self
-  inters_tot_o = getTotInter(inters, 4) # other
+  inters_tot_p = get_tot_inter(inters, 1) # peer
+  inters_tot_m = get_tot_inter(inters, 2) # manager
+  inters_tot_s = get_tot_inter(inters, 3) # self
+  inters_tot_o = get_tot_inter(inters, 4) # other
   inters_tot = sum(inters_tot_p, inters_tot_m, inters_tot_s, inters_tot_o, na.rm = T)
   
   # if no interruptions, can skip the rest of this
@@ -353,39 +353,40 @@ getDaysInterruptions = function(day, year) {
 ## Parse Data
 ### Get Results for a Single Day
 ```{r test results for a single day, eval = FALSE}
-# getDaysPomodoros(day)
+# day = "20160101"
+# get_days_pomodoros(day)
 # getDaysInterruptions(day)
 ```
 
 
 ### Get Results for a Single Month
 ```{r function to get results for a single month}
-getMonthResults = function(month, year) {
+get_month_results = function(month, year) {
   for (day in xml_children(month)) {
-    getDaysPomodoros(day, year)
-    getDaysInterruptions(day, year)
+    get_days_pomodoros(day, year)
+    get_days_interruptions(day, year)
   }
 }
 ```
 
 ### Get Results for a Single Year
 ```{r function to get results for a single year}
-getYearResults = function(year, year_txt) {
+get_year_results = function(year, year_txt) {
   for (month in xml_children(year)) {
-    getMonthResults(month, year_txt)
+    get_month_results(month, year_txt)
   }
 }
 ```
 
 ### Get Results for 2015
 ```{r get 2015 results}
-getYearResults(year_2015, "2015")
+get_year_results(year_2015, "2015")
 pomodoros_15 %<>% filter(date != "date")
 ```
 
 ### Get Results for 2016
 ```{r get 2016 results}
-getYearResults(year_2016, "2016")
+get_year_results(year_2016, "2016")
 pomodoros_16 %<>% filter(date != "date")
 ```
 
